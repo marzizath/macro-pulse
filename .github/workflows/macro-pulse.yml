@@ -1,0 +1,29 @@
+name: Macro Pulse Daily Digest
+
+on:
+  schedule:
+    # 21:00 UTC = 7am AEST (UTC+10) / 8am AEDT (UTC+11).
+    # GitHub Actions cron doesn't follow daylight saving - shift this by 1
+    # hour twice a year, or accept the digest landing an hour earlier/later
+    # for a few months.
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: python main.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
