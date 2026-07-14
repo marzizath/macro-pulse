@@ -14,7 +14,7 @@ ASSETS = {
     "WTI Crude":       {"ticker": "CL=F",     "category": "energy"},
     "Brent Crude":     {"ticker": "BZ=F",     "category": "energy"},
     "US Dollar Index": {"ticker": "DX-Y.NYB", "category": "currency"},
-    "US 10Y Yield":    {"ticker": "^TNX",     "category": "rates", "divide_by": 10},
+    "US 10Y Yield":    {"ticker": "^TNX",     "category": "rates"},
     "VIX":             {"ticker": "^VIX",     "category": "volatility"},
     "AUD/USD":         {"ticker": "AUDUSD=X", "category": "currency"},
 }

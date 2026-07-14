@@ -32,16 +32,21 @@ def _fetch_close_history(ticker: str) -> pd.Series:
 
 
 def _pct_change_and_zscore(hist: pd.Series):
-    """Return (latest % change, z-score of that change vs its recent rolling window)."""
+    """Return (latest % change, z-score of that change vs its recent rolling window).
+
+    Both returned as native Python floats, not numpy scalars - numpy types
+    (and anything compared against them, like the anomaly bool below) aren't
+    JSON-serializable and will blow up synthesize_digest()'s json.dumps call.
+    """
     returns = hist.pct_change().dropna()
     if len(returns) < ROLLING_WINDOW_DAYS + 1:
         # Not enough history yet - report the move but skip the z-score.
-        return round(returns.iloc[-1] * 100, 2), 0.0
+        return round(float(returns.iloc[-1]) * 100, 2), 0.0
     window = returns.iloc[-(ROLLING_WINDOW_DAYS + 1):-1]
     mean, std = window.mean(), window.std()
     latest = returns.iloc[-1]
     z = (latest - mean) / std if std > 0 else 0.0
-    return round(latest * 100, 2), round(z, 2)
+    return round(float(latest) * 100, 2), round(float(z), 2)
 
 
 def fetch_asset_data() -> list:
