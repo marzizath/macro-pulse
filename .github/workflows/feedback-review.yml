@@ -1,0 +1,40 @@
+name: Macro Pulse Feedback Review
+
+on:
+  schedule:
+    - cron: "0 22 1 * *"   # 1st of each month
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run feedback review
+        run: python review_feedback.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      # Only opens a PR if review_feedback.py actually changed a file.
+      # Nothing is ever pushed straight to main - you review and merge it.
+      - name: Open pull request with proposed change
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Propose correlation map addition based on feedback"
+          branch: feedback-review/proposed-update
+          title: "Proposed: correlation map addition from feedback review"
+          body-path: PROPOSED_CHANGES.md
+          add-paths: correlation_map_learned.md
+          delete-branch: true

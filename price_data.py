@@ -36,7 +36,8 @@ def _pct_change_and_zscore(hist: pd.Series):
 
     Both returned as native Python floats, not numpy scalars - numpy types
     (and anything compared against them, like the anomaly bool below) aren't
-    JSON-serializable and will blow up synthesize_digest()'s json.dumps call.
+    JSON-serializable and will blow up json.dumps/json.dump calls downstream
+    (synthesizer.py, history_store.py).
     """
     returns = hist.pct_change().dropna()
     if len(returns) < ROLLING_WINDOW_DAYS + 1:
@@ -67,6 +68,8 @@ def fetch_asset_data() -> list:
                 "pct_change": pct,
                 "zscore": z,
                 "anomaly": abs(z) >= ZSCORE_THRESHOLD,
+                # last ~30 trading days of closes, for sparkline charts
+                "history": [round(float(v), 4) for v in hist.iloc[-30:].tolist()],
             })
         except Exception as e:
             results.append({"name": name, "ticker": meta["ticker"], "error": str(e)})

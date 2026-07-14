@@ -9,6 +9,11 @@ on:
     - cron: "0 21 * * *"
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
+permissions:
+  contents: write   # needed to commit history/ and docs/ back to the repo
+  pages: write
+  id-token: write
+
 jobs:
   run-digest:
     runs-on: ubuntu-latest
@@ -27,3 +32,33 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      # Commit the day's history record + rebuilt dashboard back to the repo.
+      - name: Commit history and dashboard
+        run: |
+          git config user.name "macro-pulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add history/ docs/
+          git diff --staged --quiet || git commit -m "Macro Pulse: $(date -u +%Y-%m-%d) run"
+          git push
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy-dashboard:
+    needs: run-digest
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

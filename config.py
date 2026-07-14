@@ -54,6 +54,18 @@ NEWS_LOOKBACK_HOURS = 30   # a bit over 24h to cover weekend/timezone gaps
 # This grounds the AI synthesis step so it EXPLAINS observed moves using real,
 # known relationships instead of inventing plausible-sounding causal stories.
 # Keep this factual and mechanism-based. It is context, not a prediction engine.
+# --- Historical archive ---
+HISTORY_DIR = "history"          # one JSON file per day, committed back to the repo
+PATTERN_LOOKBACK_MAX = 5         # how many past similar episodes to surface
+PATTERN_FORWARD_DAYS = 5         # how many subsequent trading days to show per episode
+
+# --- GitHub repo (used to build feedback links in the email) ---
+# Set this to "yourusername/your-repo-name" once you've created the repo.
+GITHUB_REPO = "marzizath/macro-pulse"
+
+# --- Telegram alerts (only fires when >=1 asset is flagged - not a daily ping) ---
+TELEGRAM_ENABLED = True
+
 CORRELATION_MAP = """
 KNOWN MACRO RELATIONSHIPS (use these to explain observed moves where they
 genuinely apply - do not invent new causal links beyond this list):
