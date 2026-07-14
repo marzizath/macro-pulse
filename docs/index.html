@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Macro Pulse Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  body { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+          background:#f4f5f7; color:#1a1d26; margin:0; padding:20px; }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 22px; }
+  .meta { color:#6b7280; font-size:13px; margin-bottom:20px; }
+  .card { background:#fff; border-radius:10px; padding:18px; margin-bottom:18px;
+           box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #eceef1; }
+  th { color:#6b7280; text-transform:uppercase; font-size:11px; }
+  .disclaimer { color:#9aa0aa; font-size:11px; text-align:center; margin-top:20px; }
+</style>
+</head><body>
+<div class="wrap">
+  <h1>&#9889; Macro Pulse Dashboard</h1>
+  <div class="meta">1 days recorded &bull; last updated 14 Jul 2026</div>
+
+  <div class="card">
+    <h3>Daily % change by asset</h3>
+    <canvas id="mainChart" height="110"></canvas>
+  </div>
+
+  <div class="card">
+    <h3>Flagged anomaly history</h3>
+    <table>
+      <tr><th>Date</th><th>Assets flagged</th></tr>
+      <tr><td>2026-07-14</td><td>AUD/USD</td></tr>
+    </table>
+  </div>
+
+  <p class="disclaimer">Informational context only &mdash; not investment advice, not a trading signal.</p>
+</div>
+
+<script>
+const ctx = document.getElementById('mainChart');
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ["2026-07-14"],
+    datasets: [{"label": "Gold", "data": [1.53], "borderColor": "#f0b429", "backgroundColor": "#f0b42920", "tension": 0.25, "pointRadius": [1.5]}, {"label": "Silver", "data": [2.44], "borderColor": "#0f9d58", "backgroundColor": "#0f9d5820", "tension": 0.25, "pointRadius": [1.5]}, {"label": "WTI Crude", "data": [2.16], "borderColor": "#d93025", "backgroundColor": "#d9302520", "tension": 0.25, "pointRadius": [1.5]}, {"label": "Brent Crude", "data": [2.45], "borderColor": "#4285f4", "backgroundColor": "#4285f420", "tension": 0.25, "pointRadius": [1.5]}, {"label": "US Dollar Index", "data": [-0.34], "borderColor": "#a142f4", "backgroundColor": "#a142f420", "tension": 0.25, "pointRadius": [1.5]}, {"label": "US 10Y Yield", "data": [-0.52], "borderColor": "#00acc1", "backgroundColor": "#00acc120", "tension": 0.25, "pointRadius": [1.5]}, {"label": "VIX", "data": [-3.85], "borderColor": "#ff6f00", "backgroundColor": "#ff6f0020", "tension": 0.25, "pointRadius": [1.5]}, {"label": "AUD/USD", "data": [0.48], "borderColor": "#795548", "backgroundColor": "#79554820", "tension": 0.25, "pointRadius": [4]}, {"label": "ASX Materials (basket proxy)", "data": [0.4], "borderColor": "#607d8b", "backgroundColor": "#607d8b20", "tension": 0.25, "pointRadius": [1.5]}]
+  },
+  options: {
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+    scales: { y: { ticks: { callback: (v) => v + '%' } } }
+  }
+});
+</script>
+</body></html>

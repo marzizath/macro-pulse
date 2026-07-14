@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-14",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.53,
+      "zscore": 0.91,
+      "anomaly": false,
+      "last_price": 4058.3
+    },
+    {
+      "name": "Silver",
+      "pct_change": 2.44,
+      "zscore": 0.84,
+      "anomaly": false,
+      "last_price": 59.04
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 2.16,
+      "zscore": 0.76,
+      "anomaly": false,
+      "last_price": 79.83
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 2.45,
+      "zscore": 0.78,
+      "anomaly": false,
+      "last_price": 85.34
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.34,
+      "zscore": -1.39,
+      "anomaly": false,
+      "last_price": 100.938
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.52,
+      "zscore": -0.8,
+      "anomaly": false,
+      "last_price": 4.585
+    },
+    {
+      "name": "VIX",
+      "pct_change": -3.85,
+      "zscore": -0.47,
+      "anomaly": false,
+      "last_price": 16.5
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.48,
+      "zscore": 1.57,
+      "anomaly": true,
+      "last_price": 0.6975
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.4,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Briefing \u2014 15 July 2026\n\n**The day in one paragraph:** Oil led the session, jumping ~2.2-2.5% (WTI $79.83, Brent $85.34) as headlines confirm the Iran ceasefire has collapsed and US-Iran tensions are escalating, with reports of Hormuz shipping traffic stalling (Pakistan scrambling for emergency LNG) and Black Sea attacks adding a second supply-risk front. Gold (+1.53%) and silver (+2.44%) both rallied \u2014 classic supply-risk/inflation-hedge behaviour from relationship #1 \u2014 but neither move was large enough to register as statistically unusual for those assets. Notably, the US Dollar Index actually *softened* (-0.34%) rather than strengthening on the safe-haven bid that geopolitical oil shocks often produce, and the VIX fell (-3.85%), suggesting broader equity/vol markets"
+}
