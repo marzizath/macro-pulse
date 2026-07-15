@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-15",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.14,
+      "zscore": 0.19,
+      "anomaly": false,
+      "last_price": 4066.8999
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.14,
+      "zscore": -0.15,
+      "anomaly": false,
+      "last_price": 58.1
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.13,
+      "zscore": 0.4,
+      "anomaly": false,
+      "last_price": 80.24
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.06,
+      "zscore": 0.32,
+      "anomaly": false,
+      "last_price": 85.63
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.43,
+      "zscore": -1.62,
+      "anomaly": true,
+      "last_price": 100.501
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.87,
+      "zscore": -1.13,
+      "anomaly": false,
+      "last_price": 4.545
+    },
+    {
+      "name": "VIX",
+      "pct_change": -5.03,
+      "zscore": -0.69,
+      "anomaly": false,
+      "last_price": 15.67
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 1.31,
+      "zscore": 3.86,
+      "anomaly": true,
+      "last_price": 0.7009
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.42,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "US Dollar Index",
+    "AUD/USD"
+  ],
+  "digest": "# Macro Briefing \u2013 16 July 2026\n\n**Summary:** A mixed, somewhat contradictory session. Middle East tension escalated further overnight (US strikes on Iran, IMO warning shippers off Hormuz transits, Japan flagging the strait as \"off-limits\"), which nudged oil higher (WTI +1.1%, Brent +1.1%) but Brent notably \"slipped despite escalation\" per one headline \u2014 a smaller reaction than the Hormuz playbook would suggest. The bigger story was currency-side: the US Dollar Index fell sharply (-0.43%, a statistically unusual move) and AUD/USD jumped 1.31% (also unusual), while the VIX volatility gauge (a \"fear index\" \u2014 higher means markets expect bigger swings) dropped 5%, signalling calmer risk appetite rather than panic. ASX materials names rose 1.42%, likely benefiting from the weaker dollar and firmer oil. Gold and silver were little changed, and the US 10-year yield eased slightly.\n\n**Flagged anomalies:**\n\n**US Dollar Index (down -0.43%, unusually large move):** This is the day's odd one out. Escalating Hormuz risk would typically be expected to push the dollar *up* on safe-haven flows (per the Hormuz playbook), but it fell instead. No headline directly explains the drop \u2014 possibly technical positioning or another factor outside today's dataset. Historical archive: 0 prior episodes recorded, too small to draw any pattern.\n\n**AUD/USD (up 1.31%, unusually large move):** The Aussie's rally lines up mechanically with the falling US Dollar Index (a weaker USD tends to"
+}
