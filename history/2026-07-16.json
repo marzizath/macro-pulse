@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-16",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.08,
+      "zscore": 0.26,
+      "anomaly": false,
+      "last_price": 4047.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": -0.06,
+      "zscore": 0.3,
+      "anomaly": false,
+      "last_price": 57.075
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.3,
+      "zscore": -0.08,
+      "anomaly": false,
+      "last_price": 79.36
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -0.47,
+      "zscore": -0.19,
+      "anomaly": false,
+      "last_price": 84.55
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.04,
+      "zscore": 0.0,
+      "anomaly": false,
+      "last_price": 100.545
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.87,
+      "zscore": -1.13,
+      "anomaly": false,
+      "last_price": 4.545
+    },
+    {
+      "name": "VIX",
+      "pct_change": 2.68,
+      "zscore": 0.38,
+      "anomaly": false,
+      "last_price": 16.09
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.45,
+      "zscore": 1.2,
+      "anomaly": false,
+      "last_price": 0.7008
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.97,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2014 17 July 2026**\n\n**The 24-hour snapshot:** It was a quiet day by the numbers, even though the headlines were loud. Middle East tension around the Strait of Hormuz (the narrow waterway ~20% of global seaborne oil passes through) escalated further \u2014 a US strike on an Iran-linked tanker near Kharg Island, India telling shipowners to avoid deploying nationals on Hormuz voyages, and the IEA warning of a possible economic shock within weeks. Despite this, oil actually **fell** (WTI -0.3%, Brent -0.47%), gold and silver were roughly flat, the US dollar index barely moved, the 10-year Treasury yield eased, VIX ticked up modestly, AUD/USD firmed, and ASX materials names slipped just under 1%. None of these moves were statistically unusual for their respective assets today.\n\n**No assets were flagged as anomalous** \u2014 every move sat within normal historical variation, so this is a \"watch, don't panic\" day rather than a \"something broke\" day. Two things are still worth flagging for context:\n\n- **Oil vs. Hormuz headlines**: Relationship #1 in our framework says rising Hormuz risk should push a supply-risk premium into oil, lift inflation expectations, and often support both gold and the dollar. Instead, Brent and WTI *slipped* despite escalating strikes. This is a genuine disconnect between the news flow and price action \u2014 possibly reflecting no actual disruption to physical flows yet, profit-taking after prior gains, or the market pricing prior escalation already. Worth watching rather than explaining away; treat the \"supply risk premium\" story as not currently showing up in the tape.\n- **AUD/USD** had the largest z-score of the set (1.2) though still below the anomaly threshold. A firmer AUD alongside softer ASX materials is a bit of a mismatch with the usual China-demand-driven correlation (relationship #4) \u2014 there's no China PMI or import data in today's headlines to explain either move, so this looks more like generic USD softness than a materials-specific story.\n\n**What to watch:**\n1. **Hormuz/Iran conflict developments** \u2014 the IEA's \"weeks not months\" warning and continued US strikes suggest this is the dominant tail risk for oil, and by extension gold, USD, and shipping/transport costs, even though today's price action hasn't caught up to the headlines yet.\n2. **Fed commentary** \u2014 one headline referenced positioning for a \"hawkish Fed,\" which combined with a Hormuz spike could reinforce the dollar-strength/gold-pressure dynamic in relationship #1 if it materializes.\n3. **China trade/PMI"
+}
