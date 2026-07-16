@@ -3,38 +3,38 @@
   "assets": [
     {
       "name": "Gold",
-      "pct_change": -0.01,
-      "zscore": 0.2,
+      "pct_change": -0.04,
+      "zscore": 0.18,
       "anomaly": false,
-      "last_price": 4043.3999
+      "last_price": 4042.2
     },
     {
       "name": "Silver",
-      "pct_change": -0.22,
-      "zscore": 0.25,
+      "pct_change": -0.25,
+      "zscore": 0.24,
       "anomaly": false,
-      "last_price": 56.985
+      "last_price": 56.965
     },
     {
       "name": "WTI Crude",
-      "pct_change": 0.19,
-      "zscore": 0.06,
+      "pct_change": 0.24,
+      "zscore": 0.08,
       "anomaly": false,
-      "last_price": 79.75
+      "last_price": 79.79
     },
     {
       "name": "Brent Crude",
-      "pct_change": -0.08,
+      "pct_change": -0.09,
       "zscore": -0.07,
       "anomaly": false,
-      "last_price": 84.88
+      "last_price": 84.87
     },
     {
       "name": "US Dollar Index",
-      "pct_change": 0.07,
-      "zscore": 0.08,
+      "pct_change": 0.03,
+      "zscore": -0.04,
       "anomaly": false,
-      "last_price": 100.569
+      "last_price": 100.532
     },
     {
       "name": "US 10Y Yield",
@@ -45,15 +45,15 @@
     },
     {
       "name": "VIX",
-      "pct_change": 2.87,
-      "zscore": 0.4,
+      "pct_change": 3.32,
+      "zscore": 0.47,
       "anomaly": false,
-      "last_price": 16.12
+      "last_price": 16.19
     },
     {
       "name": "AUD/USD",
-      "pct_change": 0.5,
-      "zscore": 1.31,
+      "pct_change": 0.49,
+      "zscore": 1.3,
       "anomaly": false,
       "last_price": 0.7011
     },
@@ -66,5 +66,5 @@
     }
   ],
   "flagged": [],
-  "digest": "**Daily Macro Digest \u2013 17 July 2026**\n\n**Summary:** Headlines are dominated by escalating Middle East tension \u2014 a US strike on an Iran-linked tanker near Kharg Island, India telling shipowners to avoid Hormuz voyages, and the IEA warning of a Hormuz \"economic shock\" within weeks (per relationship #1, ~20% of global seaborne oil transits Hormuz). Yet none of today's price moves reached the \"unusual\" threshold \u2014 every asset in the dataset is flagged anomaly=false. Oil itself barely budged (WTI +0.19%, Brent -0.08%, even as one headline noted \"Brent Slips Despite Escalating Conflict\"), gold and silver were roughly flat to slightly down, the US 10Y yield eased (-0.87%), the US Dollar Index ticked up marginally, and VIX rose modestly (+2.87%) but from a low base (16.12). AUD/USD had the largest move of the day (+0.50%), and ASX materials basket slipped (-0.97%), though no China demand headlines were available today to explain the materials move.\n\n**Note on the Hormuz headlines vs. market reaction:** This is a case where the causal story you'd expect (relationship #1: Hormuz risk \u2192 oil supply premium \u2192 inflation expectations \u2192 hawkish central banks \u2192 stronger USD/gold) simply isn't showing up in the numbers yet. Oil, gold and USD are all essentially flat. It's worth flagging as a genuine disconnect rather than forcing a narrative \u2014 either markets are treating the strikes as noise so far, or the price reaction hasn't caught up to the headlines. No historical pattern data was provided for any of today's assets, so no comparable-episode context to lean on here.\n\n**AUD/USD (+0.50%, largest move of the day):** This sits above other moves in relative terms but wasn't flagged as anomalous. No China PMI, import, or RBA headlines appeared in today's feed to explain it via relationship #4, so this move currently lacks a clear driver in the available data.\n\n**ASX Materials basket (-0.97%):** A softer day for BHP/RIO/FMG/NST collectively, but again no China demand or EOFY-specific headlines (relationship #6) surfaced today to attribute this to a known mechanism \u2014 treat as an unexplained local move for now.\n\n**What to watch:**\n1. Whether Hormuz tensions (Iran-linked tanker strikes, shipping avoidance) escalate into an actual supply disruption \u2014 the IEA's \"weeks\" warning is the key trigger to watch for oil/gold repricing.\n2. Any upcoming Fed commentary or hawkish signals referenced in the \"Five Oil and Gas Stocks Ready for a Hormuz Spike and a Hawkish Fed\" piece \u2014 a Fed shift would flow through via relationship #5.\n3. China trade/PMI data, which would clarify today's unexplained AUD and materials moves via relationship #4.\n\n*This is informational context only, not trading advice.*"
+  "digest": "# Daily Macro Digest \u2014 17 July 2026\n\n## Summary\nA quiet data day on the numbers despite a genuinely tense backdrop: US strikes on an Iran-linked tanker near Kharg Island and IEA warnings about a possible Hormuz (the narrow shipping chokepoint between Iran and Oman, carrying ~20% of the world's seaborne oil) disruption dominate headlines, yet none of today's asset moves are flagged as statistically unusual. Oil is roughly flat-to-up (WTI +0.24%, Brent -0.09%), gold and silver are barely changed, the US dollar index is flat, and the US 10-year yield eased 0.87%. VIX rose 3.3% and AUD/USD gained 0.49%, both modest. ASX materials basket slipped 0.97%, also unremarkable in scale. In short: heavy geopolitical noise, but markets aren't yet pricing a disruption \u2014 one headline literally notes \"Brent slips despite escalating conflict.\"\n\n## Flagged assets\nNone of today's moves crossed the anomaly threshold \u2014 every asset in the dataset shows `anomaly: false`. That's worth flagging in itself: given the Hormuz headlines, you might expect oil and gold to be jumping per relationship #1 (Hormuz tension \u2192 supply-risk premium \u2192 oil/gold up, USD often up), but the actual price action doesn't show that yet. This looks like a case where the narrative and the numbers are currently disconnected \u2014 worth watching rather than acting on.\n\nA few smaller, non-anomalous observations for context:\n- **US 10Y yield** fell 0.87% (z-score -1.13, the largest deviation in today's set though still below the anomaly bar). Per relationship #8, falling yields without inflation data can reduce pressure on gold, but gold barely moved, so this link isn't cleanly showing up today.\n- **AUD/USD** up 0.49% (z-score 1.3, also below threshold) while ASX materials fell \u2014 these are pulling in different directions, and there's no China PMI or trade data in today's headlines to explain either via relationship #4. Best treated as unexplained noise rather than a story.\n- **VIX** up 3.3% is a small risk-off tick (relationship #7) but nowhere near a spike \u2014 gold's flatness and AUD's rise argue against a real \"risk-off\" regime today.\n\nNo historical episode data was supplied for any asset today, so no pattern-matching context to offer.\n\n## What to watch\n1. **Hormuz/Iran conflict developments** \u2014 IEA has warned of a narrowing window before economic shock; further tanker strikes could flip oil, gold, and USD into the classic Hormuz pattern (relationship #1) if the standoff escalates.\n2. **India's diesel/jet fuel export tax hike** \u2014 worth tracking for regional fuel-cost flow-through, particularly transport/airline exposure.\n3. **Any upcoming Fed commentary** \u2014 one headline flags markets bracing for a \"hawkish Fed,\" which would matter for USD and gold per relationship #8/#3.\n\n*Informational only \u2014 not trading advice.*"
 }
