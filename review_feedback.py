@@ -47,7 +47,7 @@ def _digest_for_date(run_date: str) -> str:
     path = os.path.join("history", f"{run_date}.json")
     if not os.path.exists(path):
         return ""
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         record = json.load(f)
     return record.get("digest", "")
 
@@ -145,11 +145,11 @@ Respond with EXACTLY one of:
     today = datetime.now().date().isoformat()
     entry = f"\n### {today}\n{addition}\n\n<!-- Reasoning: {reasoning} -->\n"
 
-    with open(LEARNED_MAP_PATH, "a") as f:
+    with open(LEARNED_MAP_PATH, "a", encoding="utf-8") as f:
         f.write(entry)
 
     # Written for peter-evans/create-pull-request to use as the PR body.
-    with open("PROPOSED_CHANGES.md", "w") as f:
+    with open("PROPOSED_CHANGES.md", "w", encoding="utf-8") as f:
         f.write(f"## Proposed correlation map addition\n\n**New entry:**\n{addition}\n\n"
                 f"**Reasoning:**\n{reasoning}\n\n"
                 f"Based on {len(negative)} negative feedback item(s) out of {len(records)} total. "

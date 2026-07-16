@@ -19,7 +19,7 @@ def _load_learned_patterns() -> str:
     Empty until you've merged at least one feedback-review pull request."""
     if not os.path.exists(LEARNED_MAP_PATH):
         return ""
-    with open(LEARNED_MAP_PATH) as f:
+    with open(LEARNED_MAP_PATH, encoding="utf-8") as f:
         content = f.read()
     # strip the leading HTML comment block (instructions, not content)
     if content.strip().startswith("<!--"):
@@ -28,7 +28,26 @@ def _load_learned_patterns() -> str:
     return content.strip()
 
 
-def _build_system_prompt() -> str:
+EDITION_FRAMING = {
+    "morning": (
+        "This is the MORNING edition, sent ~7am Sydney time. It should read "
+        "as a recap of what happened overnight while the reader slept - "
+        "mainly the US and European trading sessions, plus any Middle East "
+        "/ geopolitical developments that broke overnight Sydney time."
+    ),
+    "evening": (
+        "This is the EVENING edition, sent ~4:15pm Sydney time, right after "
+        "the ASX closes. It should read as a recap of the Australian trading "
+        "day - how AUD/USD and ASX materials names actually traded, and any "
+        "Asian-session commodity moves - rather than repeating the morning "
+        "edition's overnight story unless something materially changed "
+        "during the day."
+    ),
+    "daily": "This is a single daily digest covering the last 24 hours.",
+}
+
+
+def _build_system_prompt(edition: str = "daily") -> str:
     learned = _load_learned_patterns()
     learned_section = (
         f"\n\nLEARNED PATTERNS (added over time from your own feedback, "
@@ -36,10 +55,13 @@ def _build_system_prompt() -> str:
         f"the base list above):\n{learned}\n"
         if learned else ""
     )
-    return f"""You are writing a daily macro briefing for a Sydney-based
-reader who tracks gold, silver, oil, USD, US yields, VIX, AUD/USD, and ASX
-materials stocks, and wants to understand what moved and why it might matter
-- not what to trade.
+    framing = EDITION_FRAMING.get(edition, EDITION_FRAMING["daily"])
+    return f"""You are writing a macro briefing for a Sydney-based reader who
+tracks gold, silver, oil, USD, US yields, VIX, AUD/USD, and ASX materials
+stocks, and wants to understand what moved and why it might matter - not
+what to trade.
+
+{framing}
 
 {CORRELATION_MAP}{learned_section}
 
@@ -64,12 +86,24 @@ Rules:
 """
 
 
-def synthesize_digest(asset_data: list, headlines: list, pattern_context: list = None) -> str:
+def _strip_history_for_api(asset_data: list) -> list:
+    """The 30-day 'history' array exists only to draw sparklines in the
+    email locally (see email_sender.py) - the model never needs raw daily
+    closes to explain today's move, just today's % change and z-score.
+    Dropping it here was the single biggest lever on the API bill, since it
+    was the majority of the JSON payload for no reasoning benefit."""
+    return [{k: v for k, v in a.items() if k != "history"} for a in asset_data]
+
+
+def synthesize_digest(asset_data: list, headlines: list, pattern_context: list = None,
+                       edition: str = "daily") -> str:
     api_key = os.environ["ANTHROPIC_API_KEY"]
+
+    slim_asset_data = _strip_history_for_api(asset_data)
 
     user_content = (
         "TODAY'S ASSET DATA (anomaly=true means it's an unusually large move "
-        "for that asset):\n" + json.dumps(asset_data, indent=2) +
+        "for that asset):\n" + json.dumps(slim_asset_data, indent=2) +
         "\n\nRECENT HEADLINES (last ~30h, from RSS feeds):\n" +
         json.dumps(headlines, indent=2)
     )
@@ -84,7 +118,7 @@ def synthesize_digest(asset_data: list, headlines: list, pattern_context: list =
     payload = {
         "model": MODEL,
         "max_tokens": 1400,
-        "system": _build_system_prompt(),
+        "system": _build_system_prompt(edition),
         "messages": [{"role": "user", "content": user_content}],
     }
 

@@ -120,7 +120,7 @@ new Chart(ctx, {{
 
     import os
     os.makedirs("docs", exist_ok=True)
-    with open(OUTPUT_PATH, "w") as f:
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(html)
     return OUTPUT_PATH
 

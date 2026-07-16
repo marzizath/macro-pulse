@@ -47,7 +47,7 @@ def save_run(asset_data: list, digest_text: str, run_date: date = None):
         "flagged": [a["name"] for a in asset_data if a.get("anomaly")],
         "digest": digest_text,
     }
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(record, f, indent=2)
     return path
 
@@ -60,6 +60,6 @@ def load_all_runs() -> list:
     for fname in sorted(os.listdir(HISTORY_DIR)):
         if not fname.endswith(".json"):
             continue
-        with open(os.path.join(HISTORY_DIR, fname)) as f:
+        with open(os.path.join(HISTORY_DIR, fname), encoding="utf-8") as f:
             runs.append(json.load(f))
     return runs
