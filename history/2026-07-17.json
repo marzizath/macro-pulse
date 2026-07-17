@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-17",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.94,
+      "zscore": 0.86,
+      "anomaly": false,
+      "last_price": 4023.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.58,
+      "zscore": 0.54,
+      "anomaly": false,
+      "last_price": 56.22
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.57,
+      "zscore": 1.09,
+      "anomaly": false,
+      "last_price": 81.77
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 4.58,
+      "zscore": 1.33,
+      "anomaly": false,
+      "last_price": 88.09
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.02,
+      "zscore": -0.11,
+      "anomaly": false,
+      "last_price": 100.755
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.61,
+      "zscore": -0.9,
+      "anomaly": false,
+      "last_price": 4.541
+    },
+    {
+      "name": "VIX",
+      "pct_change": 12.19,
+      "zscore": 1.66,
+      "anomaly": true,
+      "last_price": 18.77
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.33,
+      "zscore": -0.79,
+      "anomaly": false,
+      "last_price": 0.6985
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.31,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "VIX",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 18 July 2026\n\n**The 24-hour story:** Middle East escalation dominates. Headlines confirm the US expanded strikes on Iran with Tehran retaliating \"across the Gulf,\" reviving fears over Strait of Hormuz shipping and pushing crude sharply higher (WTI +3.6%, Brent +4.6%, its biggest weekly gain in months per OilPrice.com). That geopolitical shock also shows up as a volatility spike (VIX +12%) and a broad, unexplained-by-local-news slide in ASX materials names (-2.3%). Gold and silver both firmed modestly, the US dollar was essentially flat, and the 10-year Treasury yield actually eased rather than rose \u2014 a slightly mixed cocktail relative to the textbook \"Hormuz risk\" playbook.\n\n**Flagged assets:**\n\n**VIX (+12.2%, anomaly):** A sharp jump in this \"fear gauge\" tracks classic risk-off behaviour \u2014 typically gold up, equities down, AUD down (relationship 7), all of which we saw to some degree. Historical pattern context: archive has zero prior recorded episodes for VIX, so there's no track record to compare this to \u2014 too early to say anything about \"usual\" follow-through.\n\n**ASX Materials basket (BHP/RIO/FMG/NST, -2.3%, anomaly):** No China PMI or import data appeared in today's headlines, so the usual China-demand story (relationship 4) can't be confirmed as the driver. The move lines up more plausibly with the broader risk-off tone (VIX spike) than with anything commodity-specific \u2014 plain equity de-risking rather than a materials-specific story. It's also mid-July, well outside Australia's EOFY (30 June) window, so tax-related selling (relationship 6) is an unlikely explanation this time. Historical pattern context: zero prior episodes recorded for this basket \u2014 no meaningful pattern to lean on.\n\n**Notable but unflagged divergence:** Oil's jump usually drags USD up and yields up via inflation-hawkish central bank expectations (relationship 1/8). Here, DXY was flat and the 10Y yield actually fell \u2014 suggesting bond markets read this more as a growth/safety flight than an in"
+}
