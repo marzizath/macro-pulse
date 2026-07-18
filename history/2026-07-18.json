@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-18",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.68,
+      "zscore": 0.7,
+      "anomaly": false,
+      "last_price": 4012.7
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.25,
+      "zscore": 0.44,
+      "anomaly": false,
+      "last_price": 56.038
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 4.48,
+      "zscore": 1.39,
+      "anomaly": false,
+      "last_price": 82.49
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 4.59,
+      "zscore": 1.34,
+      "anomaly": false,
+      "last_price": 88.1
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.02,
+      "zscore": -0.12,
+      "anomaly": false,
+      "last_price": 100.75
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.61,
+      "zscore": -0.9,
+      "anomaly": false,
+      "last_price": 4.541
+    },
+    {
+      "name": "VIX",
+      "pct_change": 12.19,
+      "zscore": 1.66,
+      "anomaly": true,
+      "last_price": 18.77
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.21,
+      "zscore": -0.48,
+      "anomaly": false,
+      "last_price": 0.6985
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.31,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "VIX",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 19 July 2026\n\n**Summary:** The headline story is a sharp ~4.5% jump in both WTI and Brent crude, alongside a 12% spike in the VIX (volatility index) \u2014 a classic sign of markets pricing in more uncertainty. Gold and silver ticked up modestly, the US dollar and 10-year yield were little changed, and AUD/USD slipped slightly. The standout local mover was the ASX materials basket (BHP, RIO, FMG, NST), down 2.3%. Unfortunately most news feeds failed to load today (403 errors), so the causal picture is thinner than usual \u2014 commentary pieces from oil trade press reference \"mounting risks\" and fading \"illusion of oil abundance,\" consistent with supply-side jitters, but no confirmed trigger event (e.g., a specific Hormuz incident) came through in the available headlines.\n\n**VIX (+12.2%, anomaly)**\nThis is an unusually large jump, suggesting a genuine risk-off shift \u2014 money moving away from risk assets toward safety. Under the usual pattern (relationship #7), this typically comes with gold up, equities under pressure, and AUD softer, which broadly matches today (gold +0.68%, AUD -0.21%). USD, however, is flat rather than stronger, so the risk-off signal isn't showing up everywhere. *Historical pattern context: our archive"
+}
