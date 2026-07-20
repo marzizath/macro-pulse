@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-20",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -0.02,
+      "zscore": 0.24,
+      "anomaly": false,
+      "last_price": 4011.8
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.12,
+      "zscore": 0.74,
+      "anomaly": false,
+      "last_price": 56.665
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.08,
+      "zscore": -0.15,
+      "anomaly": false,
+      "last_price": 82.42
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.93,
+      "zscore": 0.11,
+      "anomaly": false,
+      "last_price": 88.92
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.24,
+      "zscore": 0.69,
+      "anomaly": false,
+      "last_price": 100.994
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.26,
+      "zscore": 1.35,
+      "anomaly": false,
+      "last_price": 4.598
+    },
+    {
+      "name": "VIX",
+      "pct_change": -0.64,
+      "zscore": -0.14,
+      "anomaly": false,
+      "last_price": 18.65
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.04,
+      "zscore": -0.06,
+      "anomaly": false,
+      "last_price": 0.6997
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.86,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "# Daily Macro Digest \u2014 21 July 2026\n\n**Summary:** Headlines are dominated by a serious escalation in the US-Iran conflict, a Houthi-declared naval blockade on Saudi Arabia, and a Black Sea terminal drone strike \u2014 all pointing to real Strait of Hormuz-style supply risk (~20% of seaborne oil flows through Hormuz). Despite the alarming tone, today's actual price data is comparatively muted: no asset in this set crossed the anomaly threshold. Brent rose a modest 0.93% (after reportedly spiking briefly above $90 intraday per headlines), WTI was flat, gold was flat, silver ticked up, the US Dollar Index and 10-year Treasury yield both firmed, VIX eased slightly, AUD/USD was flat, and ASX materials slipped 0.86%. The gap between dramatic headlines and modest data moves suggests either the risk was already partly priced in before this snapshot, or the price data lags the fastest-moving headlines \u2014 worth treating with some caution either way.\n\n**Flagged assets:** None of today's assets met the anomaly threshold, so there's no unusual single-day move to explain in depth. A few readings are worth a mention without over-interpreting them:\n\n- **US 10Y yield** (+1.26%, the largest standardised move today at z=1.35, still below anomaly level) \u2014 a rising yield without matching inflation data can reflect rate-hike or growth-optimism expectations, which tends to pressure gold's appeal and support the dollar (relationship 8). Consistent with today's flat gold and firmer DXY, though the move isn't large enough to lean heavily on this story.\n- **US Dollar Index** (+0.24%, z=0.69) \u2014 a modest firming that fits the \"oil-tension \u2192 hawkish lean \u2192 USD strength\" pattern (relationship 1), though it's a small move.\n- **Silver** (+1"
+}
