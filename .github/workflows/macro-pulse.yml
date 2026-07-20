@@ -9,6 +9,14 @@ on:
     - cron: "0 21 * * *"
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
+# Serialize runs so a manual trigger overlapping the scheduled cron (or two
+# manual triggers back to back) can't race on the history/docs commit+push -
+# the second run just waits for the first to finish rather than running
+# concurrently and getting its push rejected as a non-fast-forward.
+concurrency:
+  group: macro-pulse-daily-run
+  cancel-in-progress: false
+
 permissions:
   contents: write   # needed to commit history/ and docs/ back to the repo
   pages: write
@@ -36,13 +44,29 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       # Commit the day's history record + rebuilt dashboard back to the repo.
+      # Retries with a rebase on top of the latest remote if the push is
+      # rejected - belt-and-suspenders alongside the concurrency group above,
+      # in case something else (a manual push, the monthly feedback-review
+      # workflow) moved master in between checkout and push.
       - name: Commit history and dashboard
         run: |
           git config user.name "macro-pulse-bot"
           git config user.email "actions@users.noreply.github.com"
           git add history/ docs/
-          git diff --staged --quiet || git commit -m "Macro Pulse: $(date -u +%Y-%m-%d) run"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Macro Pulse: $(date -u +%Y-%m-%d) run"
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/3) - rebasing onto latest master and retrying..."
+            git pull --rebase origin master
+          done
+          echo "Push still failing after 3 attempts."
+          exit 1
 
       - name: Upload dashboard artifact
         uses: actions/upload-pages-artifact@v3
