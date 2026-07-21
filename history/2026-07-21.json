@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-21",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.79,
+      "zscore": 1.43,
+      "anomaly": false,
+      "last_price": 4082.2
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.99,
+      "zscore": 1.7,
+      "anomaly": true,
+      "last_price": 59.07
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.57,
+      "zscore": 0.35,
+      "anomaly": false,
+      "last_price": 84.54
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 2.49,
+      "zscore": 0.57,
+      "anomaly": false,
+      "last_price": 91.44
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.19,
+      "zscore": 0.73,
+      "anomaly": false,
+      "last_price": 101.185
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.65,
+      "zscore": 0.54,
+      "anomaly": false,
+      "last_price": 4.628
+    },
+    {
+      "name": "VIX",
+      "pct_change": -8.58,
+      "zscore": -1.43,
+      "anomaly": false,
+      "last_price": 17.05
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.32,
+      "zscore": 0.8,
+      "anomaly": false,
+      "last_price": 0.7001
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.81,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Silver"
+  ],
+  "digest": "# Daily Macro Digest \u2014 22 July 2026\n\n**The 24-hour snapshot:** Middle East tension dominated the tape. US strikes on Iran (10th consecutive night), Houthi attacks forcing Saudi tankers to reverse course in the Red Sea, and a separate Kazakhstan export suspension linked to Black Sea risk all fed a broad \"supply scare\" in oil \u2014 Brent +2.5%, WTI +1.6%. Gold (+1.8%) and silver (+4.0%, flagged as an unusually large move) both rallied hard, consistent with the standard oil-shock-to-gold pipeline (supply risk \u2192 inflation expectations \u2192 safe-haven/inflation-hedge buying). The US Dollar Index and 10Y yield both ticked up modestly, AUD/USD firmed slightly to 0.7001, and ASX materials rose 0.8%. The one genuine oddity: VIX fell 8.6% even as geopolitical headlines intensified \u2014 the opposite of the usual \"risk-off\" script, so treat any single fear narrative today with caution.\n\n**Flagged asset: Silver (+3.99%, z-score 1.7)**\nSilver's move was roughly double gold's percentage gain, which per the gold/silver relationship suggests the rally isn't purely \"fear\" \u2014 silver's industrial-demand component (electronics, solar, EVs) may be adding to the safe-haven bid, though nothing in today's headlines directly points to an industrial-demand catalyst. It could equally just be catch-up/beta to gold's move. Historical pattern context: this project's archive has zero prior recorded episodes of a silver move like this, so there's no meaningful historical base rate to lean on yet \u2014 this is a genuinely fresh data point, not a repeat pattern.\n\n**Other notable but unflagged moves:**\n- Gold's 1.79% gain (z=1.43) sits just under the anomaly threshold but is directionally consistent with the oil-shock \u2192 inflation-hedge story.\n- VIX's sharp drop (-8.6%) doesn't fit the \"risk-off\" playbook given the intensity of the Iran/Houthi headlines \u2014 worth flagging as an unresol"
+}
