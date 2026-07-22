@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-22",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.29,
+      "zscore": 0.97,
+      "anomaly": false,
+      "last_price": 4123.7998
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.9,
+      "zscore": 0.82,
+      "anomaly": false,
+      "last_price": 59.955
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.05,
+      "zscore": 0.75,
+      "anomaly": false,
+      "last_price": 87.5
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 4.34,
+      "zscore": 1.08,
+      "anomaly": false,
+      "last_price": 94.96
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.04,
+      "zscore": -0.2,
+      "anomaly": false,
+      "last_price": 101.137
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.63,
+      "zscore": 0.57,
+      "anomaly": false,
+      "last_price": 4.657
+    },
+    {
+      "name": "VIX",
+      "pct_change": -2.4,
+      "zscore": -0.37,
+      "anomaly": false,
+      "last_price": 16.64
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.13,
+      "zscore": -0.32,
+      "anomaly": false,
+      "last_price": 0.6992
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 2.21,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "## Daily Macro Digest \u2014 23 July 2026\n\n**The 24-hour story in one line:** Escalating Middle East shipping threats (Houthi attacks in the Red Sea, ongoing Hormuz tension, Iran war headlines) pushed oil sharply higher and gold/silver modestly higher, but the follow-on effects that usually accompany a supply-risk shock \u2014 a stronger US dollar and a spike in market fear (VIX) \u2014 didn't show up. Meanwhile ASX materials stocks posted an unusually large 2.2% rally, likely riding the commodity price gains rather than any local Australian trigger.\n\n**Flagged asset: ASX Materials basket (BHP, RIO, FMG, NST) \u2014 +2.21%, flagged as unusual**\nThis is the standout move of the day. The basket includes a gold miner (Newcrest/Northern Star-style exposure), so today's gold and silver gains plausibly lifted it (higher metal prices \u2192 higher expected revenue for miners). There's no China PMI or import data in today's headlines to point to the usual China-demand channel (see relationship #4), and no EOFY-specific news either, so the rally looks most consistent with commodity-price pass-through rather than a China or local tax-related story. Worth flagging that AUD/USD itself was slightly *down* (-0.13%) at the same time \u2014 an unusual pairing, since a commodity-driven equity rally often comes with a firmer AUD. This divergence isn't explained by anything in today's headlines, so treat it as an open question rather than a solved one.\n\n**Historical pattern context:** The project's archive has zero prior recorded episodes for this basket's moves, so there's no historical pattern to lean on yet \u2014 sample is far too small to mean anything.\n\n**Other notable moves, briefly:"
+}
