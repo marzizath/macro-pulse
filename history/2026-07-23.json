@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-23",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -2.28,
+      "zscore": -1.54,
+      "anomaly": true,
+      "last_price": 4052.3
+    },
+    {
+      "name": "Silver",
+      "pct_change": -3.54,
+      "zscore": -1.24,
+      "anomaly": false,
+      "last_price": 57.895
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 6.37,
+      "zscore": 1.77,
+      "anomaly": true,
+      "last_price": 92.36
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 6.89,
+      "zscore": 1.79,
+      "anomaly": true,
+      "last_price": 100.55
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.3,
+      "zscore": 1.29,
+      "anomaly": false,
+      "last_price": 101.44
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.99,
+      "zscore": 0.93,
+      "anomaly": false,
+      "last_price": 4.703
+    },
+    {
+      "name": "VIX",
+      "pct_change": 12.38,
+      "zscore": 2.11,
+      "anomaly": true,
+      "last_price": 18.7
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.45,
+      "zscore": -1.53,
+      "anomaly": true,
+      "last_price": 0.697
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.22,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "WTI Crude",
+    "Brent Crude",
+    "VIX",
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Digest \u2014 24 July 2026\n\n**The 24-hour snapshot:** Oil dominated the day. Brent crude broke through $100/barrel (+6.9%) and WTI jumped 6.4% after headlines cited intensifying Houthi attacks on shipping near Bab el-Mandeb and the Red Sea, alongside insurers reportedly pulling back from Middle East oil projects \u2014 both consistent with a Hormuz/Middle East supply-risk premium. Volatility spiked hard (VIX +12.4%), signalling a broad risk-off tone, and AUD/USD slipped as a risk-sensitive currency typically does in that environment. Oddly, gold fell 2.3% and silver fell 3.5% \u2014 the opposite of the usual \"oil shock \u2192 gold up\" playbook \u2014 while the US dollar index and 10Y yield both nudged higher. ASX materials actually rose 1.2%, a mild disconnect from the AUD weakness and gold slide.\n\n**Flagged moves:**\n\n- **Gold (-2.3%, anomaly):** This is the puzzle of the day. Relationship #1 (Middle East tension \u2192 gold up as inflation hedge/safe haven) would normally predict a gold rally alongside the oil spike, but gold dropped instead. The modest USD strength and rising 10Y yield (higher real yields raise the opportunity cost of holding gold) offer a partial explanation, but the size of the drop isn't fully accounted for by the headlines available. Archive is too young (0 prior episodes) for pattern context \u2014 treat this divergence as unresolved rather than explained.\n\n- **WTI & Brent Crude (+6.4% / +6.9%, anomaly):** Fits the Hormuz/Middle East tension pathway cleanly \u2014 Houthi attacks and insurers avoiding Middle East projects both point to a genuine supply-risk premium. No prior recorded episodes in the archive yet, so no historical comparison available.\n\n- **VIX (+12.4%, anomaly):** Classic risk-off spike. In the 3 past similar episodes on record, VIX's cumulative move over the following days ranged widely \u2014 from +12.8% to -11.6% \u2014 meaning the small sample shows no consistent follow-through pattern. Not a forecast, just what happened those three times.\n\n- **AUD/USD (-0.45%, anomaly):** Consistent with"
+}
