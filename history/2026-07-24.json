@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-24",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.22,
+      "zscore": 0.1,
+      "anomaly": false,
+      "last_price": 4055.7
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.2,
+      "zscore": 0.48,
+      "anomaly": false,
+      "last_price": 58.49
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -1.87,
+      "zscore": -1.06,
+      "anomaly": false,
+      "last_price": 90.47
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -2.29,
+      "zscore": -1.2,
+      "anomaly": false,
+      "last_price": 98.38
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.03,
+      "zscore": 0.18,
+      "anomaly": false,
+      "last_price": 101.465
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.51,
+      "zscore": -1.19,
+      "anomaly": false,
+      "last_price": 4.679
+    },
+    {
+      "name": "VIX",
+      "pct_change": -0.64,
+      "zscore": -0.13,
+      "anomaly": false,
+      "last_price": 18.58
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.09,
+      "zscore": -0.48,
+      "anomaly": false,
+      "last_price": 0.6983
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.39,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 25 July 2026\n\n**Summary:** Headlines are dominated by escalating Middle East shipping risk \u2014 Hormuz tanker crossings at multi-month lows, Saudi Red Sea exports down 41% since March, tankers \"going dark\" to slip through Bab el-Mandeb \u2014 a narrative that would normally point to oil spiking. Yet today's actual data shows WTI and Brent both **down** (-1.87% and -2.29%), a mismatch worth flagging rather than glossing over. Gold and silver ticked up modestly, the US 10Y yield eased, the dollar was flat, and VIX drifted lower \u2014 all fairly quiet. The outlier of the day is ASX materials, down 2.39% on no clear matching headline.\n\n**Flagged asset: ASX Materials basket (BHP, RIO, FMG, NST) \u2014 down 2.39%, anomaly**\nThis is a genuinely large one-day move for the sector, but today's headline set doesn't offer a clean explanation. There's no China PMI/import data in this feed to link to relationship #4 (weak China data \u2192 AUD/materials pressure), and no EOFY (30 June) proximity to explain tax-related selling (relationship #6 doesn't apply \u2014 wrong calendar window). Oil prices actually fell, so a Hormuz-driven input-cost story doesn't fit either. Best to treat this move as **unexplained by today's available headlines** rather than force a narrative.\n\n*Historical context (3 past episodes of similar-sized down moves in this basket):* outcomes were inconsistent \u2014 cumulative moves over the following days were -2.46%, +1.07%, and +3.38%. With only three episodes, this is not a reliable pattern, just a note that past instances didn't show a consistent follow-through direction.\n\n**Oil (not flagged, but notable divergence):** Despite a wall of bullish supply-risk headlines (Hormuz, Red Sea, Bab el-Mandeb), both benchmarks fell over the past 24h. Possible read: some of the risk premium may have already been priced in over recent sessions, or profit-taking after a run \u2014 but the headlines alone don't explain today's pullback.\n\n**Gold/Silver:** Both up slightly, silver outpacing gold (1.2% vs 0.22%), nudging the gold/silver ratio down slightly \u2014 consistent with relationship #2's \"industrial"
+}
