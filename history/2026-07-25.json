@@ -1,0 +1,74 @@
+{
+  "date": "2026-07-25",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.52,
+      "zscore": 0.31,
+      "anomaly": false,
+      "last_price": 4067.6001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.48,
+      "zscore": 0.59,
+      "anomaly": false,
+      "last_price": 58.656
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -3.12,
+      "zscore": -1.47,
+      "anomaly": false,
+      "last_price": 89.31
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -3.88,
+      "zscore": -1.69,
+      "anomaly": true,
+      "last_price": 96.78
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.29,
+      "zscore": 1.25,
+      "anomaly": false,
+      "last_price": 101.43
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.99,
+      "zscore": 0.93,
+      "anomaly": false,
+      "last_price": 4.703
+    },
+    {
+      "name": "VIX",
+      "pct_change": 12.38,
+      "zscore": 2.11,
+      "anomaly": true,
+      "last_price": 18.7
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.23,
+      "zscore": 0.53,
+      "anomaly": false,
+      "last_price": 0.6983
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.39,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Brent Crude",
+    "VIX",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "**Daily Macro Digest \u2013 26 July 2026**\n\n**Summary:** A volatile 24 hours: crude oil sold off sharply even as headlines pointed to escalating Middle East supply risk (Strait of Hormuz disruption, Saudi Red Sea export declines), volatility (VIX) spiked hard, and ASX materials stocks fell over 2%. Gold and silver edged higher, the US dollar and 10-year yield firmed modestly, and AUD/USD was little changed. Several of these moves don't fit neatly together, which is itself worth noting.\n\n**Flagged assets:**\n\n- **Brent Crude (-3.88%, anomaly):** This is the odd one out. Headlines describe an active Hormuz-related supply squeeze and Saudi Red Sea exports down 41% since March \u2014 normally a setup for rising, not falling, oil prices (per the Hormuz\u2192supply premium relationship). Yet Brent dropped nearly 4%. No headline explains the drop directly (possibly profit-taking after a prior rally the headlines reference, \"Why the Latest Oil Rally May Be Far From Over\" \u2014 implying prices had already run up). Treat this as unresolved: the data doesn't clearly support the supply-risk narrative today. No historical episodes are on file yet for this asset (archive too young), so there's no pattern to compare against.\n\n- **VIX (+12.4%, anomaly):** A sharp jump in this \"fear gauge,\" consistent with a risk-off day (relationship 7: gold up, equities under pressure). Gold and silver did rise slightly, fitting that pattern, but the USD Index's move was modest and AUD/USD actually ticked up \u2014 not the clean risk-off signature you'd expect. In 4 similar past VIX spikes recorded, the following moves were inconsistent (cumulative follow-through ranged from -0.64% to +12.95%) \u2014 with only 4 data points, this isn't a reliable pattern"
+}
