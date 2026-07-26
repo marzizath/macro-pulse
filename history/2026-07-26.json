@@ -1,0 +1,74 @@
+{
+  "date": "2026-07-26",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.6,
+      "zscore": 0.37,
+      "anomaly": false,
+      "last_price": 4070.8
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.92,
+      "zscore": 0.77,
+      "anomaly": false,
+      "last_price": 58.906
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -3.12,
+      "zscore": -1.47,
+      "anomaly": false,
+      "last_price": 89.31
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -3.88,
+      "zscore": -1.69,
+      "anomaly": true,
+      "last_price": 96.78
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.04,
+      "zscore": 0.2,
+      "anomaly": false,
+      "last_price": 101.47
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.51,
+      "zscore": -1.19,
+      "anomaly": false,
+      "last_price": 4.679
+    },
+    {
+      "name": "VIX",
+      "pct_change": -0.64,
+      "zscore": -0.13,
+      "anomaly": false,
+      "last_price": 18.58
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.59,
+      "zscore": 1.59,
+      "anomaly": true,
+      "last_price": 0.7008
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.39,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Brent Crude",
+    "AUD/USD",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 27 July 2026\n\n**Overview:** A mixed, somewhat puzzling session. Oil fell sharply (Brent -3.9%, WTI -3.1%) even as headlines pointed to Iran-related jet fuel cost pressure \u2014 an odd combination worth flagging rather than a clean story. Gold and silver both edged higher (gold +0.6%, silver +1.9%), the 10Y yield eased, and the US dollar index barely moved. AUD/USD rose nearly 0.6% while ASX materials names dropped a sharp 2.4% \u2014 a divergence that doesn't fit the usual pattern where a stronger AUD tends to accompany strength in commodity-linked equities. VIX stayed subdued, suggesting no broad risk-off event underway.\n\n**Flagged assets:**\n\n**Brent Crude (-3.9%, anomaly)** \u2014 Unusually large drop, and it sits awkwardly against a headline about Iran-related tension pushing jet fuel costs up for airlines (relationship #1 would normally suggest oil rising on Middle East risk, not falling). Another headline (\"Oil Market's Glut Narrative Just Blew Up\") hints supply-side dynamics may be dominating over geopolitical premium today, but the feed data is too thin to confirm a clear driver. Historical pattern context: archive has zero prior episodes for this kind of move \u2014 too young to say anything about what typically follows.\n\n**AUD/USD (+0.59%, anomaly)** \u2014 A meaningfully larger-than-usual move up. No direct China-data or RBA headline in today's feed to explain it via relationship #4 or #5, so the driver is unclear from available information. In 2 prior similar episodes, AUD's initial gain was partly reversed over the following days (cumulative moves of +0.68% and -0.67%) \u2014 a sample of two, so not a reliable guide, just a note of what happened before.\n\n**ASX Materials basket (-2.39%, anomaly)** \u2014 A sizeable drop that runs counter to the AUD strength seen the same day \u2014 an unusual pairing since a firmer AUD is often linked (via relationship #4) to stronger, not weaker, materials names. No China PMI/import headlines appeared to explain it, and it's outside the 30 June EOFY window (relationship #6), so the mechanism isn't obvious from today's data. In 4 prior similar-sized drops, outcomes over the following days were mixed (cumulative moves ranged from -2.46% to +1.07%), underscoring genuine uncertainty rather than a repeatable pattern.\n\n**What to watch:**\n- Any confirmation on whether the oil glut narrative or Middle East/Hormuz risk dominates pricing next \u2014 these are pulling in opposite directions right now.\n- China PMI or trade data, which would help explain (or contradict) today's AUD/materials divergence per relationship #4.\n- Central bank commentary (Fed/RBA) given yields eased and DXY was flat \u2014 worth watching for signals per relationship #5.\n\n*Informational summary only \u2014 not investment advice.*"
+}
