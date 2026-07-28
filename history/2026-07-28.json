@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-28",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -1.19,
+      "zscore": -0.87,
+      "anomaly": false,
+      "last_price": 4026.2
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.9,
+      "zscore": -0.75,
+      "anomaly": false,
+      "last_price": 57.36
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -2.25,
+      "zscore": -0.88,
+      "anomaly": false,
+      "last_price": 80.75
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -3.13,
+      "zscore": -1.07,
+      "anomaly": false,
+      "last_price": 85.59
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.11,
+      "zscore": -0.49,
+      "anomaly": false,
+      "last_price": 101.394
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.8,
+      "zscore": -1.36,
+      "anomaly": false,
+      "last_price": 4.604
+    },
+    {
+      "name": "VIX",
+      "pct_change": -2.46,
+      "zscore": -0.39,
+      "anomaly": false,
+      "last_price": 18.21
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.23,
+      "zscore": -0.86,
+      "anomaly": false,
+      "last_price": 0.6978
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -1.19,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2014 29 July 2026**\n\n**The 24-hour snapshot:** Commodities broadly softened despite ongoing Middle East supply-risk headlines. Oil led the declines (WTI -2.25%, Brent -3.13%) even as reports confirmed a Saudi Aramco refinery shutdown after a Houthi strike and continued Strait of Hormuz tension \u2014 the drag came instead from a build in US crude inventories and signs OPEC+ plans to pause output increases, suggesting traders are currently weighting supply/demand data over the geopolitical risk premium. Gold (-1.19%) and silver (-1.9%) fell in tandem with oil rather than diverging, while the US Dollar Index was roughly flat (-0.11%) and the US 10-year yield eased (-0.8%). VIX dropped 2.46%, indicating market fear actually receded rather than spiked. AUD/USD (-0.23%) and the ASX materials basket (-1.19%) drifted lower together, though no China demand headlines appeared in today's feed to explain it. None of these moves were large enough (all z-scores under ~1.4) to be flagged as statistically unusual for their respective assets \u2014 today reads as a modest, broad-based pullback rather than a shock event.\n\n**Flagged assets:** No assets met the anomaly threshold today, so there's no unusual-move history to report. Two points worth flagging anyway for context:\n\n- *Gold & silver falling together with oil* doesn"
+}
