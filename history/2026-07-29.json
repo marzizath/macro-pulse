@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-29",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.22,
+      "zscore": 1.64,
+      "anomaly": true,
+      "last_price": 4126.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.05,
+      "zscore": 0.44,
+      "anomaly": false,
+      "last_price": 57.9
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 6.74,
+      "zscore": 1.62,
+      "anomaly": true,
+      "last_price": 84.6
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 7.67,
+      "zscore": 1.65,
+      "anomaly": true,
+      "last_price": 90.54
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.53,
+      "zscore": -2.28,
+      "anomaly": true,
+      "last_price": 100.847
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.39,
+      "zscore": 0.17,
+      "anomaly": false,
+      "last_price": 4.622
+    },
+    {
+      "name": "VIX",
+      "pct_change": 13.45,
+      "zscore": 1.97,
+      "anomaly": true,
+      "last_price": 20.66
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.41,
+      "zscore": -1.42,
+      "anomaly": false,
+      "last_price": 0.6958
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 2.32,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "WTI Crude",
+    "Brent Crude",
+    "US Dollar Index",
+    "VIX",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 30 July 2026\n\n**The 24-hour snapshot:** Oil markets ripped higher after Trump threatened Iran just hours before a Fed decision, with WTI up 6.7% and Brent up 7.7% \u2014 headlines point squarely to Strait of Hormuz tension (the narrow chokepoint between Iran and Oman that carries ~20% of global seaborne oil). That's the dominant story of the day, and it's flowing through to almost everything else: gold jumped 2.2% as a safe-haven/inflation hedge, the VIX (a \"fear gauge\" measuring expected market volatility) spiked 13.5%, and the US Dollar Index unusually fell 0.5% even as gold and oil rose \u2014 a break from the normal inverse relationship, likely because the Fed decision itself (same day) is driving dollar positioning more than the geopolitical premium is. ASX materials stocks jumped 2.3%, which on a day like this looks more like a commodity-price/gold-miner windfall (headlines mention \"Middle East turmoil... windfall for mining giants\") than a China-demand story.\n\n**Flagged assets:**\n\n- **Gold (+2.2%)** \u2014 Classic risk-off/inflation-hedge move tied to Hormuz tension. Archive has zero prior episodes to compare, so no pattern context available yet.\n\n- **WTI (+6.7%) / Brent (+7.7%)** \u2014 Directly tied to Hormuz supply-risk headlines and the Iran threat. In the one past similar episode recorded (23 July, +6-7%), the move fully reversed over the next 5 days (cumulative ~-19% to -22%). That's a single data point, not a trend \u2014 but worth noting oil spikes here have not stuck.\n\n- **US Dollar Index (-0.5%)** \u2014 Unusual because it moved with gold/oil rather than against them; likely reflects Fed-decision positioning overriding the usual safe-haven dollar bid. Only one past episode on record (too small to generalize), which saw a modest bounce-back over the following days.\n\n- **VIX (+13.5%)** \u2014 Textbook risk-off spike alongside the oil shock. Five past episodes give the best sample of any asset here: results were mixed, ranging from further follow-through gains (+13%) to pullbacks (-3%), so there's no dominant recent pattern.\n\n- **ASX Materials (+2.3%)** \u2014 Headlines link this to Middle East turmoil boosting mining profits, not a China-demand story. Only one past episode recorded (22 July), where the gain partly reversed over the next few days (cumulative -4%). Too few episodes to treat as a rule.\n\n**What to watch:**\n1. The Fed decision referenced in headlines as imminent \u2014 rate-path signals will interact directly with today's dollar/gold moves.\n2. Further Hormuz/Iran developments \u2014 any de-escalation or escalation will likely swing oil, gold, and the VIX together.\n3. Russia sanctions bill progress (US Senate, 86-12 vote) \u2014 could add another energy-supply variable in coming days.\n\n*Context only \u2014 not trading advice.*"
+}
