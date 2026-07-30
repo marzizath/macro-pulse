@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-30",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 3.18,
+      "zscore": 2.35,
+      "anomaly": true,
+      "last_price": 4162.8999
+    },
+    {
+      "name": "Silver",
+      "pct_change": 2.46,
+      "zscore": 1.05,
+      "anomaly": false,
+      "last_price": 59.285
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.6,
+      "zscore": -0.42,
+      "anomaly": false,
+      "last_price": 83.95
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -1.42,
+      "zscore": -0.59,
+      "anomaly": false,
+      "last_price": 89.45
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.81,
+      "zscore": -2.94,
+      "anomaly": true,
+      "last_price": 99.981
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.89,
+      "zscore": 0.86,
+      "anomaly": false,
+      "last_price": 4.663
+    },
+    {
+      "name": "VIX",
+      "pct_change": -17.28,
+      "zscore": -2.65,
+      "anomaly": true,
+      "last_price": 17.09
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.8,
+      "zscore": 2.24,
+      "anomaly": true,
+      "last_price": 0.703
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -1.08,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "US Dollar Index",
+    "VIX",
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Digest \u2014 31 July 2026\n\n## The Day in Brief\nA mixed but notable session: gold surged over 3% to a record-adjacent $4,163, the US Dollar Index dropped sharply (-0.81%, a statistically unusual move), and the VIX (a measure of expected S&P 500 volatility, often called the \"fear gauge\") plunged 17%. That combination is unusual \u2014 VIX down normally means \"risk-on,\" but gold spiking and the dollar falling look more like \"risk hedging + dollar weakness\" than classic risk-off. Weak US Q2 GDP data (1.5%, missing forecasts) likely drove both the dollar's slide and gold's rise, while oil stayed under mild pressure despite ongoing Hormuz/Gulf tension headlines. AUD/USD rose nearly 1% (helped mechanically by the weaker dollar), but ASX materials still slipped -1.08%, suggesting local/company-specific drag outweighed the currency tailwind.\n\n## Flagged Assets\n\n**Gold (+3.18%, anomaly)** \u2014 A big move, likely a combination of factors: dollar weakness (relationship #3: weaker USD makes gold cheaper for foreign buyers) plus soft US GDP data raising rate-cut expectations, which tends to lift gold. Middle East tension headlines (Iran-Jordan strike, Gulf oil disruption) may add a safe-haven layer too (relationship #1). No historical episodes on file yet for this pattern, so no comparative context available.\n\n**US Dollar Index (-0.81%, anomaly)** \u2014 A sharp drop, plausibly tied to the weaker-than-expected US GDP print denting rate-hawkish expectations. Only one past similar episode on record (15 July): dollar fell 0.43%, then drifted back up modestly over the following days (cumulative +0.53%). One data point isn't a pattern \u2014 worth noting, not relying on.\n\n**VIX (-17.28%, anomaly)** \u2014 A large drop in expected volatility despite ongoing war/energy headlines, which is a bit of a puzzle given gold and gold's safe-haven signal are pointing the other way. No prior episodes recorded to compare. Worth flagging as an inconsistency rather than forcing a narrative.\n\n**AUD/USD (+0.80%, anomaly)** \u2014 Likely mostly mechanical, reflecting broad USD weakness rather than any Australia-specific news (no China data in today's headlines). In 3 past similar episodes, AUD's initial pop was often followed by fading or reversal over subsequent days (cumulative following moves of +0.68%, -0.67%, -0.30%) \u2014 a mixed, inconclusive small sample, not a reliable pattern.\n\n**ASX Materials (-1.08%, not flagged as anomaly but notable)** \u2014 Fell despite AUD strength, breaking the usual currency correlation. Headlines don't point to fresh China demand data, so the drag looks idiosyncratic or sentiment-driven \u2014 unexplained by the listed relationships today.\n\n## What to Watch\n- Ongoing Gulf/Hormuz disruption headlines (Qatar LNG rerouting, Saudi output changes) \u2014 relevant to Brent/WTI risk premium.\n- Any follow-through on US growth data \u2014 soft GDP could shape Fed rate-path expectations and further USD/gold moves.\n- China demand indicators (still notably absent from today's feed) \u2014 would be the key driver to watch for AUD and ASX materials moves."
+}
