@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-31",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -0.04,
+      "zscore": -0.06,
+      "anomaly": false,
+      "last_price": 4098.6001
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.77,
+      "zscore": -0.68,
+      "anomaly": false,
+      "last_price": 57.775
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.84,
+      "zscore": 0.7,
+      "anomaly": false,
+      "last_price": 86.8
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.22,
+      "zscore": 0.01,
+      "anomaly": false,
+      "last_price": 90.12
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.21,
+      "zscore": -0.44,
+      "anomaly": false,
+      "last_price": 99.803
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.76,
+      "zscore": 2.09,
+      "anomaly": true,
+      "last_price": 4.745
+    },
+    {
+      "name": "VIX",
+      "pct_change": -6.44,
+      "zscore": -0.84,
+      "anomaly": false,
+      "last_price": 15.99
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.95,
+      "zscore": 2.7,
+      "anomaly": true,
+      "last_price": 0.7025
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.2,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "US 10Y Yield",
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Digest \u2014 1 August 2026\n\n**Summary:** The past 24 hours were dominated by an escalation in the Middle East \u2014 Iran reportedly struck US bases in Kuwait and Bahrain, pushing oil higher (WTI +3.8%, Brent +1.2%) alongside Saudi moves to build a maritime protection coalition and separate commentary questioning whether markets are under-pricing risk (referencing the 2019 Abqaiq attack). Despite the classic oil-shock playbook (relationship #1: Hormuz risk \u2192 oil up \u2192 inflation fear \u2192 gold up \u2192 USD up), gold barely moved and silver actually fell (-1.8%), the US dollar index softened slightly, and equity volatility (VIX) dropped sharply. Two moves stood out as statistically unusual: the US 10-year Treasury yield jumped, and AUD/USD had an outsized rally. Overall it's a mixed, somewhat contradictory session rather than a clean \"risk-off\" or \"risk-on\" day.\n\n**Flagged: US 10-Year Yield (+1.76%, z-score 2.09 \u2014 unusual)**\nYields jumped more than normal. Per relationship #8, a yield rise like this without matching inflation data usually reflects rate-hike or growth-optimism expectations, which raises the opportunity cost of holding non-yielding gold. That may help explain why gold stayed flat despite an oil-driven inflation narrative \u2014 the yield move and the oil move were pulling gold in opposite directions. No historical episodes are on file yet for this asset (archive too young), so there's no pattern comparison available.\n\n**Flagged: AUD/USD (+0.95%, z-score 2.7 \u2014 unusual)**\nA notably large move for the Aussie dollar. There's no China PMI or trade data in today's headlines to explain it via the usual China-demand channel (relationship #4), and the modest USD softness plus falling VIX (risk appetite improving) are the more plausible partial explanations (relationships #3 and #"
+}
