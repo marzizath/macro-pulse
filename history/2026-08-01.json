@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-01",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -1.24,
+      "zscore": -0.94,
+      "anomaly": false,
+      "last_price": 4049.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": -2.08,
+      "zscore": -0.81,
+      "anomaly": false,
+      "last_price": 57.591
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.29,
+      "zscore": 0.06,
+      "anomaly": false,
+      "last_price": 84.67
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.22,
+      "zscore": 0.01,
+      "anomaly": false,
+      "last_price": 90.12
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.21,
+      "zscore": -0.45,
+      "anomaly": false,
+      "last_price": 99.8
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.76,
+      "zscore": 2.09,
+      "anomaly": true,
+      "last_price": 4.745
+    },
+    {
+      "name": "VIX",
+      "pct_change": -6.44,
+      "zscore": -0.84,
+      "anomaly": false,
+      "last_price": 15.99
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.0,
+      "zscore": -0.2,
+      "anomaly": false,
+      "last_price": 0.7025
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.2,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "US 10Y Yield"
+  ],
+  "digest": "## Daily Macro Digest \u2014 Sydney, 2 August 2026\n\n**Summary:** A fairly quiet 24 hours dominated by one standout move: the US 10-year Treasury yield jumped sharply (+1.76%, a statistically unusual move for this asset). Oil firmed modestly (WTI +1.29%, Brent +1.22%) on a cluster of supply-risk headlines \u2014 Ukrainian drone strikes on a Russian refinery, Saudi Arabia pushing a maritime protection coalition, and commentary flagging that markets may be under-pricing risks reminiscent of the 2019 Abqaiq attack. Gold and"
+}
