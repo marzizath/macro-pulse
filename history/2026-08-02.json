@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-02",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.17,
+      "zscore": 0.09,
+      "anomaly": false,
+      "last_price": 4107.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.75,
+      "zscore": -0.68,
+      "anomaly": false,
+      "last_price": 57.786
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.29,
+      "zscore": 0.06,
+      "anomaly": false,
+      "last_price": 84.67
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.22,
+      "zscore": 0.01,
+      "anomaly": false,
+      "last_price": 90.12
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.21,
+      "zscore": -0.45,
+      "anomaly": false,
+      "last_price": 99.8
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.76,
+      "zscore": 2.09,
+      "anomaly": true,
+      "last_price": 4.745
+    },
+    {
+      "name": "VIX",
+      "pct_change": -6.44,
+      "zscore": -0.84,
+      "anomaly": false,
+      "last_price": 15.99
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.25,
+      "zscore": 0.44,
+      "anomaly": false,
+      "last_price": 0.7043
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.2,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "US 10Y Yield"
+  ],
+  "digest": "**Daily Macro Digest \u2013 3 August 2026**\n\n**Overview:** A fairly quiet 24 hours across most of the tracked assets, with one standout: US 10-year Treasury yields jumped sharply. Oil edged higher (WTI +1.3%, Brent +1.2%), gold was roughly flat (+0.17%), silver slipped (-1.75%), the US Dollar Index eased slightly, VIX (a measure of expected market volatility) fell over 6%, AUD/USD firmed modestly, and the ASX materials basket (BHP, RIO, FMG, NST) was little changed (+0.2%). Note: today's news feeds mostly returned errors, so the story below leans on the known relationships rather than confirmed headline drivers - treat causal links as plausible, not certain.\n\n**Flagged asset: US 10-Year Yield (+1.76%, unusually large move)**\nThis is the day's only statistically flagged anomaly. A yield rise of this size, without an accompanying inflation print in today's data, typically signals markets pricing in either firmer growth expectations or reduced odds of near-term rate cuts (relationship #8). Under that pattern, higher real yields raise the \"opportunity cost\" of holding gold (which pays no interest) - yet gold barely moved today, and the dollar index actually softened slightly, which is a bit inconsistent with the textbook response. That mismatch is worth flagging rather than glossing over: the usual yield-up/gold-down, yield-up/USD-up linkage didn't show up cleanly here. Historical context: this project's archive has only 1 prior recorded episode of a similar yield spike, so there isn't a meaningful pattern to lean on yet - just noting the single data point (that prior episode's yield move was similar in size, +1.76%).\n\n**Other notables:**\n- Silver's -1.75% drop, while not flagged as anomalous, is larger than gold's move - consistent with silver's dual identity as part industrial metal (relationship #2). No PMI or China industrial data appeared in today's headlines to confirm this, so it's a plausible but unconfirmed read.\n- Oil's modest gain lacks a clear driver in today's news; nothing on Hormuz/Middle East tension appeared to explain it.\n- VIX falling ~6% points toward a modestly \"risk-on\" tone, which fits with AUD/USD's small gain (relationship #7 in reverse) and the steady materials basket.\n\n**What to watch:**\n- Any confirmation of what's driving the 10Y yield move (Fed commentary, growth data) - today's central bank/economic feeds were unavailable due to access errors.\n- China PMI or import data, given the silver weakness and its industrial-demand linkage (relationship #4) - none surfaced today.\n- Upcoming ASX EOFY-related flows are not relevant now (that's a June-quarter effect) - no near-term calendar events were identifiable from today's headlines due to feed outages."
+}
