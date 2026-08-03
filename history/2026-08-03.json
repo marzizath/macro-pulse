@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-03",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.48,
+      "zscore": 1.13,
+      "anomaly": false,
+      "last_price": 4109.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.28,
+      "zscore": 0.61,
+      "anomaly": false,
+      "last_price": 58.33
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -5.48,
+      "zscore": -1.68,
+      "anomaly": true,
+      "last_price": 80.03
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -7.26,
+      "zscore": -1.91,
+      "anomaly": true,
+      "last_price": 83.58
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.19,
+      "zscore": 0.8,
+      "anomaly": false,
+      "last_price": 99.985
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -1.24,
+      "zscore": -1.87,
+      "anomaly": true,
+      "last_price": 4.686
+    },
+    {
+      "name": "VIX",
+      "pct_change": -0.81,
+      "zscore": -0.13,
+      "anomaly": false,
+      "last_price": 15.86
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.35,
+      "zscore": -1.12,
+      "anomaly": false,
+      "last_price": 0.7
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.94,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "WTI Crude",
+    "Brent Crude",
+    "US 10Y Yield"
+  ],
+  "digest": "# Daily Macro Digest \u2014 4 August 2026\n\n## Summary\nThe big story is oil's sharp reversal: WTI and Brent both dropped hard (-5.5% and -7.3%) after headlines pointed to a de-escalation in the Iran conflict (\"Trump's Iran Reversal Sends European Gas Prices Tumbling\"), unwinding some of the Middle East supply-risk premium that had been supporting crude. US 10Y yields fell alongside (-1.24%), while gold and silver drifted higher (+1.5%, +1.3%) despite that being a fairly muted, non-anomalous move for both. The US dollar index ticked up slightly, AUD/USD eased marginally, VIX stayed subdued, and ASX materials were roughly flat-to-soft (-0.94%) \u2014 nothing here suggests a broad risk-off day, just an oil-specific unwind.\n\n## Flagged Assets\n\n**WTI Crude (-5.5%, anomaly)**\nSharp drop coinciding with headlines on a partial Iran conflict de-escalation, reversing part of the Hormuz-related supply-risk premium (relationship #1 working in reverse). Historical context: only 1 prior similar episode recorded (27 Jul, -8.2%), too small a sample to draw a pattern \u2014 in that single case, oil was volatile in the days after, swinging both down and sharply up.\n\n**Brent Crude (-7.3%, anomaly)**\nSame driver as WTI, more pronounced. With 3 prior similar down-move episodes recorded, the pattern is mixed: cumulative moves over the following days ranged from -9.8% to +5.6% depending on the episode \u2014 not a reliable directional signal, just evidence that big down-days in Brent have historically been followed by more volatility, not a clean continuation either way.\n\n**US 10Y Yield (-1.24%, anomaly)**\nYields fell alongside the oil move \u2014 plausibly reflecting reduced inflation-risk premium as the geopolitical supply threat eased (opposite side of relationship #1). Only 1 prior episode on record, so no reliable pattern; that single instance saw yields drift modestly higher over the following days.\n\n**Gold & Silver (not flagged, but notable)**\nBoth rose ~1.3-1.5% even as oil fell and the safe-haven trigger (Hormuz tension) eased \u2014 a bit contrary to relationship #1's usual gold-oil linkage. VIX was flat and the dollar firmed slightly, so this doesn't read as classic risk-off buying; more likely just noise given the moves aren't statistically unusual for either metal.\n\n## What to Watch\n- Further developments on the Iran/US conflict status \u2014 headlines still flag unresolved tension (Bab el-Mandeb tanker activity, \"Why the US Can't Easily Exit the Iran Conflict\"), so the oil de-escalation narrative could reverse.\n- Any confirmation or follow-through on the reported Iran deal \u2014 determines whether oil's drop holds or partially retraces.\n- Watch AUD/USD and ASX materials for any China demand data this week (not present in today's headlines, but relevant per relationship #4).\n\n*This is informational context only, not trading advice.*"
+}
