@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-04",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.48,
+      "zscore": 1.94,
+      "anomaly": true,
+      "last_price": 4133.7998
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.64,
+      "zscore": 1.63,
+      "anomaly": true,
+      "last_price": 59.765
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -6.34,
+      "zscore": -1.73,
+      "anomaly": true,
+      "last_price": 75.25
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -5.78,
+      "zscore": -1.38,
+      "anomaly": false,
+      "last_price": 78.93
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.08,
+      "zscore": -0.11,
+      "anomaly": false,
+      "last_price": 99.882
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -1.26,
+      "zscore": -1.69,
+      "anomaly": true,
+      "last_price": 4.627
+    },
+    {
+      "name": "VIX",
+      "pct_change": 4.04,
+      "zscore": 0.44,
+      "anomaly": false,
+      "last_price": 16.5
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.05,
+      "zscore": -0.08,
+      "anomaly": false,
+      "last_price": 0.7049
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.25,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "Silver",
+    "WTI Crude",
+    "US 10Y Yield"
+  ],
+  "digest": "# Daily Macro Digest \u2014 5 August 2026\n\n## The 24-Hour Story\n\nA confusing, cross-current day: oil dropped sharply on signs of Iran diplomatic progress, yet gold and silver surged as if the world were getting riskier, not calmer. This is unusual because the Hormuz-tension relationship (#1 in our framework) would normally push oil and gold in the *same* direction. Instead, headlines suggest oil fell on \"peace deal\" optimism (crude inventory builds, US/Qatar signalling progress on an Iran draft deal) even while other reports flagged escalating Hormuz tanker attacks and stalled traffic \u2014 genuinely mixed signals from the same region. Gold's rally looks driven more by the falling US 10Y yield (lower real yields make non-yielding gold relatively more attractive \u2014 relationship #8) than by oil-driven inflation fears. Separately, weak China iron ore demand data (a one-year low) didn't stop ASX materials from rising 1.25% \u2014 a disconnect worth noting rather than explaining away. AUD/USD and the USD Index were both roughly flat, and VIX rose modestly but isn't flagged as unusual.\n\n## Flagged Assets\n\n**Gold (+2.48%, unusual move)** \u2014 Likely supported by the drop in US 10Y yields (lower yields reduce the opportunity cost of holding gold). In 2 past episodes of a similar-sized gold jump, the metal was up a further 3.55% and 0.37% cumulatively over the following days \u2014 a small sample, so treat as context only, not a pattern.\n\n**Silver (+3.64%, unusual move)** \u2014 Silver's larger percentage jump than gold nudges the gold/silver ratio down, which per relationship #2 can suggest an industrial-demand or growth story rather than pure fear \u2014 though that sits oddly against weak China iron ore data reported today. Only 1 past episode on record (up 3.99% then +2.96% cumulative over following days) \u2014 too small a sample to draw any conclusion.\n\n**WTI Crude (-6.34%, unusual move)** \u2014 Headlines directly explain this: US crude inventory builds plus US/Qatar signalling progress on an Iran draft deal reduced the supply-risk premium. Note one headline warns \"markets price in an Iran deal that does not exist yet\" \u2014 the drop may be running ahead of confirmed facts. Only 1 past similar episode (-8.21%, then +9.02% cumulative over following days) \u2014 sample too small to mean much.\n\n**US 10Y Yield (-1.26%, unusual move)** \u2014 No clear headline driver in today's feed (rates/economic-indicator sources returned errors). Only 1 past episode recorded, insufficient for pattern reading.\n\n## What to Watch\n\n- Whether the Iran/Hormuz situation resolves toward genuine de-escalation or further attacks \u2014 today's headlines contradict each other (traffic stalling vs. deal progress), so oil's next move is uncertain.\n- China demand data follow-through: iron ore at a one-year low is a relationship-#4 warning sign for AUD and ASX materials, even though materials rose today.\n- Any confirmation (or denial) of the reported Iran draft deal, which is currently priced into oil but not yet confirmed.\n\n*Informational only \u2014 not a trading signal.*"
+}
