@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-05",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 5.15,
+      "zscore": 3.71,
+      "anomaly": true,
+      "last_price": 4306.2002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.66,
+      "zscore": 1.42,
+      "anomaly": false,
+      "last_price": 62.255
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.91,
+      "zscore": -0.31,
+      "anomaly": false,
+      "last_price": 75.08
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.05,
+      "zscore": -0.08,
+      "anomaly": false,
+      "last_price": 79.4
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.2,
+      "zscore": -0.48,
+      "anomaly": false,
+      "last_price": 99.69
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.22,
+      "zscore": -0.36,
+      "anomaly": false,
+      "last_price": 4.617
+    },
+    {
+      "name": "VIX",
+      "pct_change": -4.18,
+      "zscore": -0.56,
+      "anomaly": false,
+      "last_price": 15.81
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.88,
+      "zscore": 2.03,
+      "anomaly": true,
+      "last_price": 0.7059
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 3.0,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "AUD/USD",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "## Daily Macro Digest \u2014 6 August 2026\n\n**The 24-hour snapshot:** Gold staged an unusually sharp rally (+5.15%), pulling silver up with it (+3.66%) and lifting ASX materials names sharply (+3.0%), likely helped by gold miners in that basket. AUD/USD also jumped (+0.88%), a large move for that pair. Yet the broader \"fear\" picture is inconsistent: the VIX (volatility index, a measure of expected market turbulence) actually fell 4.2%, the US dollar index eased slightly, and oil was essentially flat to lower despite a wall of Middle East headlines. This is a mixed, somewhat contradictory session \u2014 strong moves in precious metals and AUD, but without the classic risk-off signature (VIX up, USD up, AUD down) that usually accompanies geopolitical fear spikes.\n\n**Gold (anomaly, +5.15%, z-score 3.71 \u2014 a very unusual move):** Headlines point to ongoing Hormuz-related tension (the Strait of Hormuz being a chokepoint for ~20% of global seaborne oil), including a \"draft agreement awaiting Khamenei approval\" alongside a competing headline about a Houthi missile strike on a tanker in the"
+}
