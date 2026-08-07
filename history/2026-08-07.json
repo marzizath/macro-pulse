@@ -3,65 +3,71 @@
   "assets": [
     {
       "name": "Gold",
-      "pct_change": 1.1,
-      "zscore": 0.56,
-      "anomaly": false,
-      "last_price": 4292.3999
+      "pct_change": 3.76,
+      "zscore": 2.34,
+      "anomaly": true,
+      "last_price": 4401.2998
     },
     {
       "name": "Silver",
-      "pct_change": -0.94,
-      "zscore": -0.52,
-      "anomaly": false,
-      "last_price": 61.515
+      "pct_change": 3.84,
+      "zscore": 1.57,
+      "anomaly": true,
+      "last_price": 63.8
     },
     {
       "name": "WTI Crude",
-      "pct_change": 3.79,
-      "zscore": 0.83,
+      "pct_change": -0.27,
+      "zscore": -0.16,
       "anomaly": false,
-      "last_price": 78.07
+      "last_price": 77.08
     },
     {
       "name": "Brent Crude",
-      "error": "single positional indexer is out-of-bounds"
+      "pct_change": -0.27,
+      "zscore": -0.16,
+      "anomaly": false,
+      "last_price": 82.27
     },
     {
       "name": "US Dollar Index",
-      "pct_change": 0.28,
-      "zscore": 1.18,
+      "pct_change": -0.37,
+      "zscore": -1.05,
       "anomaly": false,
-      "last_price": 99.966
+      "last_price": 99.604
     },
     {
       "name": "US 10Y Yield",
-      "pct_change": 1.15,
-      "zscore": 1.21,
+      "pct_change": -0.21,
+      "zscore": -0.39,
       "anomaly": false,
-      "last_price": 4.67
+      "last_price": 4.66
     },
     {
       "name": "VIX",
-      "pct_change": -4.17,
-      "zscore": -0.5,
+      "pct_change": -1.65,
+      "zscore": -0.21,
       "anomaly": false,
-      "last_price": 15.15
+      "last_price": 14.9
     },
     {
       "name": "AUD/USD",
-      "pct_change": -0.37,
-      "zscore": -1.09,
+      "pct_change": 0.19,
+      "zscore": 0.24,
       "anomaly": false,
-      "last_price": 0.7031
+      "last_price": 0.7071
     },
     {
       "name": "ASX Materials (basket proxy)",
-      "pct_change": -0.23,
+      "pct_change": 0.25,
       "zscore": null,
       "anomaly": false,
       "last_price": null
     }
   ],
-  "flagged": [],
-  "digest": "**Daily Macro Digest \u2014 7 August 2026**\n\n**Summary:** It was a mixed, moderately volatile session. Oil jumped hard (WTI +3.8%) even as one headline flagged a possible easing of Middle East (\"Hormuz\") tensions \u2014 a genuine contradiction in the newsflow that's worth flagging rather than smoothing over. Gold rose 1.1% while silver slipped nearly 1%, a classic \"fear\" divergence (gold/silver ratio rising) even though the VIX (volatility index, a \"fear gauge\") actually fell 4%, and equities markets look calm. The US dollar and 10-year Treasury yield both firmed, AUD/USD eased slightly, and ASX materials names were roughly flat-to-down. No asset here crossed the \"unusual move\" threshold today (none flagged as anomalies) \u2014 even oil's near-4% jump sits within its normal range historically, so no historical-pattern comparisons apply.\n\n**Notes on the moves (none flagged as statistically unusual today, but worth explaining):**\n\n- **Oil (WTI +3.8%):** The size of the move is eye-catching but not extreme for oil. The headlines are genuinely mixed: one report suggests Aramco is *discounting* Asian crude ahead of a possible Hormuz deal (which would reduce supply"
+  "flagged": [
+    "Gold",
+    "Silver"
+  ],
+  "digest": "# Daily Macro Digest \u2014 8 August 2026\n\n## Summary\nGold and silver both surged sharply overnight (+3.76% and +3.84% respectively), the standout moves of the session. Oddly, this didn't come packaged with the usual risk-off signature: VIX actually eased slightly, the US Dollar Index softened, and 10Y yields dipped modestly. Oil was roughly flat-to-down despite a batch of alarming Hormuz-related headlines (Iran allegedly weighing a permanent blockade, ADNOC reporting 15 vessel attacks) \u2014 but a same-day headline suggests traders are pricing in a possible breakthrough/de-escalation, which likely explains why crude didn't rally on the tension stories. AUD/USD and ASX materials were both little-changed, showing no clear pull from the day's moves.\n\n## Flagged Assets\n\n**Gold (+3.76%, z-score 2.34 \u2014 unusually large move)**\nThis is a big jump with no single clean trigger in today's headlines. It doesn't fit the classic Hormuz-driven safe-haven story well, since oil itself didn't rise and the USD actually weakened rather than strengthened (a weaker dollar mechanically makes USD-priced gold cheaper for foreign buyers, which is at least directionally consistent with gold rising). Beyond that, no confirmed catalyst stands out \u2014 treat this as an outsized move without a fully clear cause.\n*Historical context: in 4 past episodes of a similar gold jump, gold's cumulative move over the following days ranged from +1.1% to +6.25%, all continuing higher. Small sample \u2014 not a forecast, just what happened before.\n\n**Silver (+3.84%, z-score 1.57 \u2014 unusually large move)**\nSilver rose in lockstep with gold. Since gold/silver moved almost identically in percentage terms, this looks like a broad precious-metals bid rather than an industrial-demand story (silver's industrial-use link would normally show up as silver outperforming gold on strong manufacturing data \u2014 that's not obviously the case here, since the gold/silver ratio barely shifted).\n*Historical context: in 2 past episodes of a similar silver jump, cumulative follow-through was +2.96% and +2.72%. Sample too small to draw a real conclusion.\n\n## What to Watch\n- **Strait of Hormuz situation**: headlines are split between \"Iran may block it\" and \"traders pricing a breakthrough\" \u2014 a genuine resolution or escalation here would be the key swing factor for oil, and via relationship #1, could flow into USD and gold.\n- **US Dollar Index direction**: it's the most plausible link to today's gold/silver move; a continued DXY slide would fit a \"cheaper for foreign buyers\" story, while a rebound would leave the precious-metals rally unexplained by the standard drivers.\n- **China demand data** (not in today's headlines but relevant to AUD/ASX materials): still worth watching given AUD/ASX materials showed no reaction today."
 }
