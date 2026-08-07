@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-07",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.1,
+      "zscore": 0.56,
+      "anomaly": false,
+      "last_price": 4292.3999
+    },
+    {
+      "name": "Silver",
+      "pct_change": -0.94,
+      "zscore": -0.52,
+      "anomaly": false,
+      "last_price": 61.515
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.79,
+      "zscore": 0.83,
+      "anomaly": false,
+      "last_price": 78.07
+    },
+    {
+      "name": "Brent Crude",
+      "error": "single positional indexer is out-of-bounds"
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.28,
+      "zscore": 1.18,
+      "anomaly": false,
+      "last_price": 99.966
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.15,
+      "zscore": 1.21,
+      "anomaly": false,
+      "last_price": 4.67
+    },
+    {
+      "name": "VIX",
+      "pct_change": -4.17,
+      "zscore": -0.5,
+      "anomaly": false,
+      "last_price": 15.15
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.37,
+      "zscore": -1.09,
+      "anomaly": false,
+      "last_price": 0.7031
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.23,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2014 7 August 2026**\n\n**Summary:** It was a mixed, moderately volatile session. Oil jumped hard (WTI +3.8%) even as one headline flagged a possible easing of Middle East (\"Hormuz\") tensions \u2014 a genuine contradiction in the newsflow that's worth flagging rather than smoothing over. Gold rose 1.1% while silver slipped nearly 1%, a classic \"fear\" divergence (gold/silver ratio rising) even though the VIX (volatility index, a \"fear gauge\") actually fell 4%, and equities markets look calm. The US dollar and 10-year Treasury yield both firmed, AUD/USD eased slightly, and ASX materials names were roughly flat-to-down. No asset here crossed the \"unusual move\" threshold today (none flagged as anomalies) \u2014 even oil's near-4% jump sits within its normal range historically, so no historical-pattern comparisons apply.\n\n**Notes on the moves (none flagged as statistically unusual today, but worth explaining):**\n\n- **Oil (WTI +3.8%):** The size of the move is eye-catching but not extreme for oil. The headlines are genuinely mixed: one report suggests Aramco is *discounting* Asian crude ahead of a possible Hormuz deal (which would reduce supply"
+}
