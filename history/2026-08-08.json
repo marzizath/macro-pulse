@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-08",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.33,
+      "zscore": 1.42,
+      "anomaly": false,
+      "last_price": 4340.7002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.08,
+      "zscore": 1.25,
+      "anomaly": false,
+      "last_price": 63.332
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.15,
+      "zscore": 0.17,
+      "anomaly": false,
+      "last_price": 78.18
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.29,
+      "zscore": 0.16,
+      "anomaly": false,
+      "last_price": 83.55
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.37,
+      "zscore": -1.07,
+      "anomaly": false,
+      "last_price": 99.6
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.21,
+      "zscore": -0.39,
+      "anomaly": false,
+      "last_price": 4.66
+    },
+    {
+      "name": "VIX",
+      "pct_change": -1.65,
+      "zscore": -0.21,
+      "anomaly": false,
+      "last_price": 14.9
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.53,
+      "zscore": 1.07,
+      "anomaly": false,
+      "last_price": 0.7071
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.25,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2013 9 August 2026**\n\n**Summary:** Oil-related tension in the Strait of Hormuz dominated the headlines, with Iran reportedly refusing to reopen the strait until six demands are met and ADNOC citing 15 vessel attacks. Despite this, oil prices moved only modestly (WTI +1.15%, Brent +1.29%), and one report even noted traders \"staying bearish\" despite the disruption \u2014 suggesting markets aren't yet pricing a severe, sustained supply shock. Gold (+2.33%) and silver (+3.08%) rallied hard, consistent with safe-haven and inflation-hedge demand tied to Hormuz risk, though the US Dollar Index actually fell (-0.37%) rather than strengthening \u2014 a break from the usual pattern where Hormuz-driven risk tends to lift the dollar too. AUD/USD rose 0.53%, and ASX materials edged up slightly, both more consistent with a softer dollar than with any China-demand story (no China data in today's headlines). VIX slipped, and the 10Y yield eased slightly \u2014 neither signals acute panic.\n\n**Flagged assets:** None of today's moves crossed the anomaly threshold for their respective assets (all anomaly=false), meaning nothing here is statistically unusual by this system's own historical standards. Gold and silver had the largest z-scores (1.42 and 1.25 respectively) \u2014 a moderately elevated move, not extreme \u2014 while AUD/USD's z-score (1.07) was similarly mild. No historical pattern context was supplied for any of these, so no past-episode comparisons can be offered.\n\n**Worth noting despite no formal flag:** The combination of rising gold/silver together with a *falling* dollar and only modest oil gains doesn't fully match the textbook Hormuz playbook (relationship 1), where oil, gold, and USD often rise together on supply-risk fears. It's possible markets are treating this Hormuz escalation with some skepticism (echoed in the \"oil traders stay bearish\" headline), or that dollar weakness is being driven by something outside today's headline set \u2014 the data here doesn't offer a clean explanation, so it's best flagged as uncertain rather than forced into a narrative. The rising gold price alongside rising silver (both up together) is more of a mixed signal than a clear \"fear\" or \"growth\" move, since the gold/silver ratio didn't shift dramatically in either direction.\n\n**What to watch:**\n- Iran's stated conditions for reopening the Strait of Hormuz \u2014 any escalation or resolution would be the key swing factor for oil, and by extension gold/USD dynamics.\n- Further vessel-attack reports from ADNOC"
+}
