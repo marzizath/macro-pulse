@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-09",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 3.72,
+      "zscore": 2.32,
+      "anomaly": true,
+      "last_price": 4399.7002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.35,
+      "zscore": 1.37,
+      "anomaly": false,
+      "last_price": 63.499
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.15,
+      "zscore": 0.17,
+      "anomaly": false,
+      "last_price": 78.18
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.29,
+      "zscore": 0.16,
+      "anomaly": false,
+      "last_price": 83.55
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.37,
+      "zscore": -1.07,
+      "anomaly": false,
+      "last_price": 99.6
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.21,
+      "zscore": -0.39,
+      "anomaly": false,
+      "last_price": 4.66
+    },
+    {
+      "name": "VIX",
+      "pct_change": -1.65,
+      "zscore": -0.21,
+      "anomaly": false,
+      "last_price": 14.9
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.49,
+      "zscore": 0.97,
+      "anomaly": false,
+      "last_price": 0.7068
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.25,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold"
+  ],
+  "digest": "## Daily Macro Digest \u2014 10 August 2026\n\n**Summary:** The dominant story over the last 24 hours is continued Strait of Hormuz tension \u2014 Iran has reiterated that the strait stays closed until six demands are met, and oilprice.com is running headlines on airlines scrambling for jet fuel. Despite this, oil's actual move was modest (WTI +1.15%, Brent +1.29%, neither flagged as unusual), likely cushioned by reports of US energy supply offsetting some of the shock. Gold, however, jumped a sharp +3.72% \u2014 a statistically unusual move \u2014 while silver rose a similar +3.35% (not flagged, but a large move in its own right). The US dollar index softened (-0.37%), the 10-year Treasury yield eased slightly (-0.21%), VIX actually fell (-1.65%), and AUD/USD firmed (+0.49%). ASX materials were little changed (+0.25%).\n\n**Flagged asset: Gold (+3.72%, unusually large move)**\nGold's rally is a bit of a mixed signal rather than a clean story. Part of it lines up with the USD-inverse relationship (the dollar weakened, which mechanically supports USD-priced gold). Part of it plausibly reflects the ongoing Hormuz-related inflation/safe-haven narrative (relationship 1). But the rest of the risk-off checklist doesn't confirm it: VIX fell rather than spiked, and AUD (a risk-sensitive currency) actually rose \u2014 both are more \"risk-on\" signals, which sits oddly next to a big gold rally. Silver rose almost as much as gold, so the gold/silver ratio barely moved, which doesn't cleanly support a pure \"fear\" move either (a rising ratio would"
+}
