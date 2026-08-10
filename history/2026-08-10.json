@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-10",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.49,
+      "zscore": 1.37,
+      "anomaly": false,
+      "last_price": 4448.6001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 4.02,
+      "zscore": 1.51,
+      "anomaly": true,
+      "last_price": 65.88
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 5.27,
+      "zscore": 1.1,
+      "anomaly": false,
+      "last_price": 82.3
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 5.15,
+      "zscore": 0.94,
+      "anomaly": false,
+      "last_price": 87.85
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.21,
+      "zscore": 0.89,
+      "anomaly": false,
+      "last_price": 99.806
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.84,
+      "zscore": 0.81,
+      "anomaly": false,
+      "last_price": 4.699
+    },
+    {
+      "name": "VIX",
+      "pct_change": 3.76,
+      "zscore": 0.43,
+      "anomaly": false,
+      "last_price": 15.46
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.34,
+      "zscore": 0.64,
+      "anomaly": false,
+      "last_price": 0.7058
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.71,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Silver"
+  ],
+  "digest": "# Daily Macro Digest \u2014 11 August 2026\n\n## Summary\nOil surged (WTI +5.3%, Brent +5.2%) alongside a broad safe-haven bid across metals, driven by escalating Middle East tension centred on the Strait of Hormuz \u2014 the narrow shipping lane carrying ~20% of global seaborne oil. Headlines point to Iran's security chief being replaced days after a \"hardline ultimatum,\" plus commentary that Hormuz shipping capacity needs to expand roughly tenfold to stabilise markets. Gold (+2.5%) and silver (+4.0%) both rose in classic supply-risk/inflation-hedge fashion (relationship #1), while the US Dollar Index and 10Y yield ticked up modestly \u2014 consistent with hawkish inflation expectations building on oil-driven cost pressure. VIX rose 3.8% but remains low in absolute terms (15.46), suggesting nervousness rather than panic. AUD/USD and ASX materials both edged higher, a relatively muted response given the size of the oil move \u2014 no China demand headlines emerged to explain this directly.\n\n## Flagged Asset: Silver (+4.02%, anomaly)\nSilver's rise outpaced gold's, which is unusual \u2014 gold typically leads on pure safe-haven demand while silver's industrial-demand link (electronics, solar, EVs) usually makes it more sensitive to manufacturing data than geopolitical fear. Today's move looks driven mainly by the same Hormuz-related risk premium rather than industrial news, so it's behaving somewhat atypically relative to the framework \u2014 worth flagging as a \"fear\" move rather than a growth signal, but the outsized magnitude vs. gold isn't fully explained by the headlines available.\n\n**Historical pattern context (3 past episodes of a similar-sized silver jump):** in these 3 cases, silver's move continued higher over the following days, with cumulative follow-through ranging from about +3% to +14%. One episode also showed a sharp single-day pullback (-3.5%) within that continuation. Sample size is small (3), so this is descriptive context only, not a forecast.\n\n## What to Watch\n- **Hormuz situation developments** \u2014 Iran's leadership reshuffle and any shipping/insurance disruption could further move oil, gold, and USD if tensions escalate or de-escalate.\n- **China demand data** (PMI/imports) \u2014 none in today's headlines, but this remains the key lever for AUD and ASX materials independent of the oil story.\n- **US 10Y yield and Fed commentary** \u2014 a further rise without matching inflation data could start pressuring gold via higher real yields, per the standard rate/gold relationship.\n\n*This is informational context on market moves, not trading advice.*"
+}
