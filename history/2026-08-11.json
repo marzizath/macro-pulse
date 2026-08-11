@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-11",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.51,
+      "zscore": 0.74,
+      "anomaly": false,
+      "last_price": 4427.7998
+    },
+    {
+      "name": "Silver",
+      "pct_change": -0.38,
+      "zscore": -0.44,
+      "anomaly": false,
+      "last_price": 64.86
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.34,
+      "zscore": 0.26,
+      "anomaly": false,
+      "last_price": 83.23
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.4,
+      "zscore": 0.23,
+      "anomaly": false,
+      "last_price": 88.95
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.02,
+      "zscore": 0.29,
+      "anomaly": false,
+      "last_price": 99.826
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.32,
+      "zscore": -0.46,
+      "anomaly": false,
+      "last_price": 4.684
+    },
+    {
+      "name": "VIX",
+      "pct_change": -1.16,
+      "zscore": -0.12,
+      "anomaly": false,
+      "last_price": 15.28
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.03,
+      "zscore": -0.26,
+      "anomaly": false,
+      "last_price": 0.7062
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.1,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "# Daily Macro Digest \u2014 12 August 2026\n\n**The 24-hour snapshot:** Middle East tension dominates the headlines, with Iran keeping the Strait of Hormuz (a narrow shipping chokepoint carrying ~20% of global seaborne oil) effectively closed and traffic through it down to just six vessels on Monday. That's feeding a genuine supply-risk premium into oil (WTI +1.34%, Brent +1.4%, with one outlet floating $100 Brent) and lifting gold (+1.51%) as investors lean into safe-haven and inflation-hedge demand. Despite these moves, none of today's assets cleared the \"unusual\" threshold \u2014 the moves are directionally consistent with the Hormuz story but not statistically extreme yet. USD, US 10Y yields, VIX, AUD/USD and ASX materials were all little-changed, suggesting markets are watching the situation rather than repricing sharply.\n\n**Flagged assets:** None met the anomaly threshold today. All moves fall within normal ranges for their respective assets (z-scores between -0.46 and +0.74), so there's no outlier move requiring deeper explanation or historical pattern comparison.\n\n**Context worth noting anyway:**\n- **Gold** (+1.51%, not flagged) \u2014 rising alongside oil is consistent with the Hormuz playbook (relationship #1): supply-risk premium \u2192 inflation expectations \u2192 gold as inflation hedge/safe haven. A headline notes gold is \"near a two-month high\" ahead of Wednesday's CPI print, adding a second tailwind independent of Hormuz.\n- **Oil** (WTI/Brent both +~1.3-1.4%) \u2014 directly tied to the Strait of Hormuz closure and Iran's statement that it will stay shut until conditions are met. A partly offsetting note: a \"surprise build\" in US crude inventories (API data) would normally pressure prices, so today's gain reflects geopolitical risk outweighing that softer demand/supply signal.\n- **USD, US 10Y yield, VIX, AUD/USD, ASX materials** \u2014 all essentially flat. Notably, the classic Hormuz-crisis chain (relationship #1) would expect USD strength and possibly hawkish central bank signals; that hasn't shown up yet. Gold/silver ratio also isn't screaming \"fear\" \u2014 silver was roughly flat (-0.38%), so this looks more like a targeted safe-haven/oil-supply story than a broad risk-off event.\n\n**What to watch:**\n1. **Wednesday's US CPI report** \u2014 flagged directly in the headlines as a catalyst gold is positioning ahead of; a hot print could reinforce the hawkish-Fed / stronger-USD dynamic (relationship #8).\n2. **Strait of Hormuz developments** \u2014 any escalation or resolution will be the key swing factor for oil, and by extension gold, USD and AUD via the chain in relationship #1.\n3. **US crude inventory data (EIA follow-up to the API build)** \u2014 worth watching whether official figures confirm the surprise build, which could cap oil's geopolitical premium.\n\n*This is informational context only, not trading advice.*"
+}
