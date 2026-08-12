@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-12",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.96,
+      "zscore": 1.1,
+      "anomaly": false,
+      "last_price": 4469.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.17,
+      "zscore": 0.29,
+      "anomaly": false,
+      "last_price": 65.53
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.75,
+      "zscore": -0.27,
+      "anomaly": false,
+      "last_price": 82.58
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -0.61,
+      "zscore": -0.21,
+      "anomaly": false,
+      "last_price": 88.37
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.16,
+      "zscore": 0.74,
+      "anomaly": false,
+      "last_price": 99.984
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.04,
+      "zscore": -0.17,
+      "anomaly": false,
+      "last_price": 4.682
+    },
+    {
+      "name": "VIX",
+      "pct_change": -4.78,
+      "zscore": -0.63,
+      "anomaly": false,
+      "last_price": 14.55
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.12,
+      "zscore": 0.04,
+      "anomaly": false,
+      "last_price": 0.7064
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.17,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2014 13 August**\n\n**The 24-hour picture:** A fairly quiet, low-drama session by the numbers. Gold pushed up almost 2% to US$4,469 and silver gained just over 1%, but neither move is statistically unusual for these assets right now (both z-scores are modest). Oil actually drifted lower (WTI -0.75%, Brent -0.61%) despite a stack of headlines pointing to tighter supply \u2014 refinery attacks squeezing diesel, the IEA flagging a 1.8m bpd global oil deficit this quarter, and Iran's leadership reshuffle adding a geopolitical undertone. That's a bit of a mismatch: bullish supply narratives, but prices didn't follow. The US dollar index ticked up slightly, the 10-year Treasury yield was essentially flat, VIX fell nearly 5% to a low 14.55 (calm conditions), and AUD/USD was barely changed. ASX materials basket (BHP, Rio, Fortescue, Northern Star) slipped a marginal 0.17%. Nothing here is flagged as an anomaly today \u2014 it's a session of small, mostly unremarkable moves, and unfortunately most of our usual news feeds (economic indicators, forex, central bank speeches) returned errors, so context is thinner than usual.\n\n**Flagged assets:** None met the anomaly threshold today. Gold's ~2% gain and VIX's ~5% drop are the largest percentage moves in the set, but their z-scores (1.1 and -0.63) indicate they're within a normal range of day-to-day noise for these assets \u2014 not the kind of outlier that would trigger deeper pattern analysis.\n\n**A note on the mismatch:** Per Relationship #1, Middle East/Hormuz-adjacent supply tension should typically push oil and gold higher together (supply-risk premium plus safe-haven demand). Gold did rise, consistent with that pattern, but oil fell despite headlines about refinery attacks and a diesel supply crunch. The EIA also reported a \"massive uptick\" in US crude inventories, which likely offset the supply-tightness narrative \u2014 rising stockpiles typically ease price pressure even when geopolitical risk is elevated. Worth noting as a genuine tension in the data rather than something we can fully explain from headlines alone.\n\n**What to watch:**\n- Any escalation from Iran's reported leadership reshuffle or further Hormuz-adjacent shipping/refinery disruption \u2014 this is the headline risk most likely to reconnect oil and gold under Relationship #1.\n- The EIA's inventory data trend \u2014 if the \"massive uptick\" repeats, it could keep pressuring oil prices even against a bullish IEA deficit call.\n- China demand signals (not directly covered in today's headlines) remain the key channel for AUD and ASX materials moves per Relationship #4 \u2014 none surfaced today, which may explain the muted move in that basket.\n\n*This is a summary of observed market moves and possible explanatory context \u2014 not a trading recommendation.*"
+}
