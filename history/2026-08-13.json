@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-13",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -0.04,
+      "zscore": -0.34,
+      "anomaly": false,
+      "last_price": 4407.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.48,
+      "zscore": -1.01,
+      "anomaly": false,
+      "last_price": 64.585
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -2.47,
+      "zscore": -0.71,
+      "anomaly": false,
+      "last_price": 81.21
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -2.27,
+      "zscore": -0.58,
+      "anomaly": false,
+      "last_price": 86.96
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.05,
+      "zscore": -0.02,
+      "anomaly": false,
+      "last_price": 99.955
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.88,
+      "zscore": 0.0,
+      "anomaly": false,
+      "last_price": 4.641
+    },
+    {
+      "name": "VIX",
+      "pct_change": 0.55,
+      "zscore": 0.06,
+      "anomaly": false,
+      "last_price": 14.63
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.07,
+      "zscore": -0.33,
+      "anomaly": false,
+      "last_price": 0.7059
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.5,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "**Daily Macro Digest \u2013 14 August 2026**\n\n**Summary:** A quiet day by volatility standards \u2014 nothing in today's dataset registered as a statistically unusual move (no anomaly flags triggered). The standout theme in headlines is Middle East supply risk (Hormuz Strait tension, \"Hormuz Stalemate Raises Risk of $120 Oil,\" Ukraine strikes on a Russian refinery, crashing Russian diesel exports), but oil prices actually **fell** overnight \u2014 WTI -2.5%, Brent -2.3% \u2014 which runs counter to the usual supply-risk-premium pattern (Relationship #1). Gold and silver both eased slightly (gold -0.04%, silver -1.48%), the US dollar index was essentially flat (-0.05%), the 10-year Treasury yield dipped modestly (-0.88%), VIX ticked up slightly but remains low (14.6), and AUD/USD and ASX materials were both little-changed (-0.07% and -0.5% respectively).\n\n**On the flagged assets:** None of today's moves cleared the anomaly threshold, so there's no unusual single-asset story to unpack against historical episodes today. Two points worth flagging as context rather than alarm:\n\n- **Oil vs headlines mismatch:** Despite escalating Hormuz-related rhetoric in the news flow, both WTI and Brent fell over 2%. This doesn't fit the standard \"supply-risk premium\" story cleanly \u2014 it's possible markets are discounting the Hormuz risk as more the same \"stalemate\" rather than an escalation, or other factors (demand concerns, inventory data not shown here) are dominating. Worth being cautious about assuming Hormuz tension is currently the driver of oil pricing \u2014 the headline and the price moved in opposite directions.\n\n- **Silver's relative softness:** Silver's -1.48% move (z-score -1.01) was the largest percentage move in the dataset, though still below the anomaly bar. Given silver's dual role as a safe-haven and industrial metal (Relationship #2), a slightly bigger drop than gold could hint at softer industrial-demand sentiment, but the move is too small and the data too thin to draw a firm conclusion.\n\nGold's slight dip alongside a flat dollar and a lower 10Y yield doesn't cleanly fit the \"higher real yields pressure gold\" pattern (Relationship #8) either, since yields fell rather than rose \u2014 so today's gold move looks more like noise than a clear macro signal.\n\n**What to watch:**\n1. **Hormuz Strait developments** \u2014 oilprice.com flagged renewed risk of \"$120 oil\" if tensions escalate; a genuine supply disruption (versus rhetoric) would be the trigger to watch for the classic oil\u2192inflation\u2192gold/USD chain (Relationship #1).\n2. **Diesel market tightness** \u2014 multiple headlines (Jefferies note, Russian diesel export collapse) suggest refined-product markets are tighter than crude headline prices suggest; worth monitoring for divergence between crude and product prices.\n3. No confirmed China PMI/import data or Fed/RBA decisions in today's headlines \u2014 AUD and ASX materials remain without a fresh domestic or China-demand catalyst (Relationships #4, #5)"
+}
