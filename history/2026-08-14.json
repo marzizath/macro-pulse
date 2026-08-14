@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-14",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.57,
+      "zscore": 0.8,
+      "anomaly": false,
+      "last_price": 4432.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": -0.07,
+      "zscore": -0.4,
+      "anomaly": false,
+      "last_price": 64.825
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.42,
+      "zscore": 0.3,
+      "anomaly": false,
+      "last_price": 82.4
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.75,
+      "zscore": 0.33,
+      "anomaly": false,
+      "last_price": 88.59
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.32,
+      "zscore": -0.84,
+      "anomaly": false,
+      "last_price": 99.636
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.19,
+      "zscore": 0.0,
+      "anomaly": false,
+      "last_price": 4.696
+    },
+    {
+      "name": "VIX",
+      "pct_change": -2.6,
+      "zscore": -0.3,
+      "anomaly": false,
+      "last_price": 14.25
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.32,
+      "zscore": 0.73,
+      "anomaly": false,
+      "last_price": 0.7087
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.51,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 15 August 2026\n\n## Summary\nOil is the story: Brent and WTI both pushed up over 1.4\u20131.75% on escalating Hormuz Strait tensions, with headlines describing direct attacks near the shipping chokepoint and traders \"repricing Hormuz risk.\" Gold followed with a solid 1.57% gain, consistent with the standard oil-shock-to-gold hedge pattern, though neither move is statistically unusual yet (z-scores are modest). Oddly, the US dollar actually softened (-0.32%) rather than strengthening on safe-haven flows, which breaks from the usual Hormuz-crisis playbook \u2014 worth watching but not a contradiction we can fully explain from today's headlines alone. The clear outlier is the ASX Materials basket, down 2.51% \u2014 a genuine anomaly with no obvious single trigger in today's feed. VIX actually eased slightly (-2.6%), suggesting broad equity markets aren't yet in panic mode, and AUD/USD ticked up 0.32%, which sits awkwardly alongside the materials sell-off.\n\n## Flagged Asset: ASX Materials (basket proxy) \u2014 down 2.51% (anomaly)\nThis is today's standout move and it doesn't line up cleanly with any of the day's headlines \u2014 no China PMI/import data or AUD weakness that would fit the usual \"weak China demand\" story (relationship #4), and AUD/USD was actually firmer, not weaker. It's also not EOFY-related (that's a 30 June phenomenon, and we're well past it). One honest possibility: rising oil/input costs and Middle East jitters weighing on miners' cost outlook, but that's speculative given the data provided.\n\n**Historical context:** In 5 past episodes of comparable ~2.3\u20132.4% single-day drops in this basket, the following days were mixed \u2014 cumulative moves over the next 5 sessions ranged from -1.71% to +2.19%, with no consistent direction. This is a small sample and should not be read as a predictor of what happens next.\n\n## What to Watch\n- **Hormuz/Middle East developments** \u2014 oil headlines suggest this is escalating (\"toward $100\"), which is the key driver to track for further gold/oil/USD movement per relationship #1.\n- **USD direction** \u2014 today's DXY softness alongside an oil-driven risk event is atypical; a reversal (or continuation) over the next day or two would help clarify whether markets are treating this as inflationary (hawkish USD) or not.\n- **China data releases** \u2014 none in today's headlines, but any PMI/import prints would be the natural next explanation to check against the ASX materials drop.\n\n*This is informational context only, not trading advice.*"
+}
