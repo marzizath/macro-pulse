@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-15",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.38,
+      "zscore": -0.06,
+      "anomaly": false,
+      "last_price": 4380.3999
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.18,
+      "zscore": -0.28,
+      "anomaly": false,
+      "last_price": 64.988
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.42,
+      "zscore": 0.3,
+      "anomaly": false,
+      "last_price": 82.4
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.67,
+      "zscore": 0.31,
+      "anomaly": false,
+      "last_price": 88.52
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.29,
+      "zscore": -0.89,
+      "anomaly": false,
+      "last_price": 99.67
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.19,
+      "zscore": 1.23,
+      "anomaly": false,
+      "last_price": 4.696
+    },
+    {
+      "name": "VIX",
+      "pct_change": -2.6,
+      "zscore": -0.3,
+      "anomaly": false,
+      "last_price": 14.25
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.33,
+      "zscore": 0.73,
+      "anomaly": false,
+      "last_price": 0.7087
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.51,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 16 August 2026\n\n## Summary\n\nOil is the story of the day, with headlines pointing to attacks disrupting shipping through the Strait of Hormuz (the narrow waterway carrying ~20% of the world's seaborne oil) pushing Brent toward $100 and WTI up 1.4%. Despite the oil supply-risk narrative, the US Dollar Index actually *softened* slightly (-0.29%) rather than strengthening as the Hormuz playbook would suggest, and gold's move was modest (+0.38%) \u2014 so the \"risk premium\" story is only partially playing out today. US 10Y yields rose over 1%, VIX eased, and AUD/USD ticked up 0.33%. The standout move is ASX materials, down 2.51% \u2014 a genuine outlier with no clear same-day trigger in today's headlines.\n\n## Flagged Asset: ASX Materials (basket proxy: BHP, RIO, FMG, NST)\n\nDown 2.51%, flagged as an anomaly. There's no China PMI/demand headline or local news in today's feed that obviously explains this \u2014 AUD/USD was actually firmer, which cuts against the usual \"weak China data drags AUD and materials together\" pattern. Worth noting we're inside the window where **Australian EOFY-adjacent tax positioning** could still be a factor for some names, though this is a different mechanism from US/December year-end effects and isn't confirmed by any headline here \u2014 flagging as uncertain rather than forcing a story.\n\n**Historical pattern context (5 past episodes of similar-sized down moves, small sample):** in these cases the basket's next-day move was mixed \u2014 sometimes extending the fall (-2.3% to -2.4%), sometimes bouncing (+1.9% to +2.3%). Cumulative 5-day-forward returns ranged from -1.71% to +2.19% across the five episodes. With only 5 episodes, this is too small a sample to treat as a reliable pattern \u2014 it shows both continuation and reversal have happened before, not what will happen next.\n\n## Other notes (not flagged, but relevant)\n\n- **Oil (+1.4-1.7%)**: Headlines cite Hormuz attacks and Somali piracy surging amid the blockade \u2014 consistent with the known supply-risk premium mechanism, though moves stayed below anomaly thresholds today.\n- **USD (-0.29%)** and **gold (+0.38%)**: the muted, almost inverse-to-expected reaction versus the oil/Hormuz narrative is worth noting \u2014 no clean causal story here, just an observation.\n- **US 10Y yield (+1.19%)**: a rise without matching inflation headlines in today's feed \u2014 could reflect rate-expectation shifts, but the data provided doesn't confirm why.\n\n## What to Watch\n\n1. Further Hormuz/shipping developments \u2014 oil headlines suggest this is an active, evolving situation.\n2. Any China demand data (PMI, imports) that could explain today's ASX materials weakness after the fact.\n3. Confirmation of whether EOFY-related flows are contributing to ASX materials volatility over coming sessions.\n\n*Informational only \u2014 not a trading signal or recommendation.*"
+}
