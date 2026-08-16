@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-16",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.69,
+      "zscore": 0.89,
+      "anomaly": false,
+      "last_price": 4437.2998
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.36,
+      "zscore": -0.19,
+      "anomaly": false,
+      "last_price": 65.108
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 1.42,
+      "zscore": 0.3,
+      "anomaly": false,
+      "last_price": 82.4
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.67,
+      "zscore": 0.31,
+      "anomaly": false,
+      "last_price": 88.52
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.29,
+      "zscore": -0.89,
+      "anomaly": false,
+      "last_price": 99.67
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.19,
+      "zscore": 1.23,
+      "anomaly": false,
+      "last_price": 4.696
+    },
+    {
+      "name": "VIX",
+      "pct_change": -2.6,
+      "zscore": -0.3,
+      "anomaly": false,
+      "last_price": 14.25
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.33,
+      "zscore": 0.73,
+      "anomaly": false,
+      "last_price": 0.7087
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.51,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "## Daily Macro Digest \u2014 17 August 2026\n\n**The 24-hour picture:** Gold pushed up 1.7% to around $4,437/oz while silver was roughly flat (+0.36%), a divergence that leans toward \"fear\" positioning rather than industrial optimism (see relationship on the gold/silver ratio). Oil firmed too \u2014 WTI +1.4%, Brent +1.7% \u2014 consistent with ongoing Middle East risk premiums flagged in recent energy headlines (Iran-related supply disruption, European gas storage concerns). Curiously, the US Dollar Index actually softened slightly (-0.29%) even as gold and oil rose, which doesn't fit the textbook \"safe-haven USD strengthens on Hormuz-style risk\" pattern \u2014 worth noting rather than explaining away. The US 10-year yield rose 1.2% and VIX eased 2.6%, suggesting bond markets are pricing some rate-hawkishness even as headline equity volatility stayed calm. AUD/USD ticked up 0.33%. The standout mover was ASX Materials, down 2.51% \u2014 a genuine anomaly with no clear same-day trigger in available headlines.\n\n**Flagged asset: ASX Materials (basket proxy) \u2014 down 2.51%, anomaly=true**\nThis is the day's unusual move, but the headline feed (largely 403-blocked for economy/forex/central bank sources) offers no direct explanation \u2014 no fresh China PMI data, no RBA news, no company-specific catalyst surfaced. Two known mechanisms could plausibly be in play but aren't confirmed: (1) if global commodity prices or China demand data softened without appearing in this feed, that would pressure materials names per the usual iron ore/copper linkage; (2) August is outside the traditional 30 June EOFY tax-loss window, so that mechanism is unlikely to be the cause here.\n\nHistorical context (5 past episodes of similar-sized down moves in this basket, small sample): the next-5-day cumulative outcome varied widely \u2014 from -2.51% to +2.19%, with three of five episodes net negative. This is not a strong or consistent pattern; treat it as descriptive only, not predictive.\n\n**What to watch:**\n- Any fresh China demand/PMI data, which would clarify whether the materials selloff has a China-demand root (per the standard AUD/iron ore linkage) rather than being idiosyncratic.\n- Continued Middle East/Hormuz-related supply headlines \u2014 oil majors and shipping have been prominent in recent coverage, and further escalation would be the clearest test of the oil\u2192inflation\u2192gold chain.\n- European gas storage updates heading into the Northern Hemisphere heating season, which could spill into broader energy price sentiment.\n\n*Note: several standard news feeds (economy, forex, central bank speeches) returned errors today, so some causal context may be missing from this briefing.*"
+}
