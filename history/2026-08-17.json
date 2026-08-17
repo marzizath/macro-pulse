@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-17",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.12,
+      "zscore": 1.21,
+      "anomaly": false,
+      "last_price": 4473.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.41,
+      "zscore": 0.31,
+      "anomaly": false,
+      "last_price": 65.905
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.09,
+      "zscore": 0.79,
+      "anomaly": false,
+      "last_price": 84.95
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 2.91,
+      "zscore": 0.63,
+      "anomaly": false,
+      "last_price": 91.1
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.1,
+      "zscore": -0.15,
+      "anomaly": false,
+      "last_price": 99.574
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.6,
+      "zscore": 0.46,
+      "anomaly": false,
+      "last_price": 4.724
+    },
+    {
+      "name": "VIX",
+      "pct_change": 6.6,
+      "zscore": 1.17,
+      "anomaly": false,
+      "last_price": 15.19
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.62,
+      "zscore": 1.51,
+      "anomaly": true,
+      "last_price": 0.7108
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.36,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Digest \u2014 18 August 2026\n\n## Summary\nIt's a classic Hormuz-tension day: oil jumped hard (WTI +3.1%, Brent +2.9%), gold pushed up 2.1% toward $4,473, and VIX (the market's \"fear gauge\") rose 6.6%. Headlines continue to reference the Strait of Hormuz supply squeeze, with Iraq-Syria bypass pipeline plans still years away and China quietly building crude reserves despite the crisis. Oddly, the US dollar barely moved (-0.1%) and 10Y Treasury yields ticked up only modestly (+0.6%) \u2014 so this doesn't look like a full-blown flight-to-safety day, more a targeted oil/gold repricing. AUD/USD rose 0.62% (flagged as unusual) and ASX materials gained 1.36%, which sits a bit awkwardly against the Hormuz/risk-off script (relationship #1 would normally expect USD strength and AUD weakness). Silver's modest 1.4% gain (vs gold's 2.1%) nudges the gold/silver ratio up slightly \u2014 consistent with a \"fear\" rather than \"growth\" move \u2014 but the gap is too small to lean on heavily.\n\n## Flagged asset: AUD/USD (+0.62%, unusually large move)\nThis move doesn't fit neatly with the Hormuz/risk-off narrative \u2014 normally a VIX spike (relationship #7) would pressure AUD, not lift it. No China PMI or trade data in today's headlines to explain it via relationship #4 either. The gain may simply reflect broader USD softness rather than AUD-specific strength.\n\n**Historical context**: In 5 past episodes where AUD/USD had a similarly-sized upward move, the currency's cumulative performance over the following 5 sessions was mixed \u2014 three episodes finished modestly positive (+0.83% to +1.52%), two finished negative (as low as -0.67%). With only 5 episodes, this is a weak sample and shouldn't be read as a pattern, just as context.\n\n## What to watch\n- **Strait of Hormuz developments**: headlines flag long-term bypass infrastructure (Iraq-Syria pipeline, still 4 years/$15bn away) \u2014 any escalation or de-escalation here remains the key driver for oil, gold, and USD hawkishness (relationship #1).\n- **China demand signals**: no fresh PMI/import data today, but China's reserve-building (+200k bpd in July) despite the Hormuz crisis is worth tracking for AUD and ASX materials read-through (relationship #4).\n- **US copper import distortion**: a 12-year record in copper imports amid an LME stock crash \u2014 worth watching for flow-through to industrial metals sentiment and the gold/silver ratio (relationship #2).\n\n*This is informational context only, not trading advice.*"
+}
