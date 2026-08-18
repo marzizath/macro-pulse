@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-18",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -0.64,
+      "zscore": -0.82,
+      "anomaly": false,
+      "last_price": 4389.5
+    },
+    {
+      "name": "Silver",
+      "pct_change": -4.08,
+      "zscore": -2.29,
+      "anomaly": true,
+      "last_price": 63.42
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.09,
+      "zscore": -0.06,
+      "anomaly": false,
+      "last_price": 84.42
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.44,
+      "zscore": 0.06,
+      "anomaly": false,
+      "last_price": 91.27
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.0,
+      "zscore": 0.22,
+      "anomaly": false,
+      "last_price": 99.636
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -0.38,
+      "zscore": -0.59,
+      "anomaly": false,
+      "last_price": 4.706
+    },
+    {
+      "name": "VIX",
+      "pct_change": 4.28,
+      "zscore": 0.74,
+      "anomaly": false,
+      "last_price": 15.84
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.03,
+      "zscore": -0.13,
+      "anomaly": false,
+      "last_price": 0.7087
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.35,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Silver"
+  ],
+  "digest": "# Macro Digest \u2013 19 August 2026 (Sydney read)\n\n**Summary:** A fairly contained 24 hours for headline prices despite loud Middle East shipping news. Gold eased modestly, but silver had an outsized drop and is the day's standout anomaly. Oil benchmarks (WTI, Brent) barely moved even as reports piled up about tankers turning back at the Strait of Hormuz (the narrow shipping chokepoint linking the Gulf to open ocean, carrying ~20% of global seaborne oil) and supertanker charter rates spiking to $510,000/day. The US dollar and 10-year Treasury yield were little changed, VIX (Wall St's \"fear gauge\") ticked up modestly but not enough to flag, and AUD/USD and ASX materials stocks were roughly flat-to-soft. Net read: physical oil-market stress (freight rates, diesel shortages) is building faster than it's showing up in crude futures prices.\n\n**Flagged asset \u2013 Silver (-4.08%, z-score -2.29 \u2013 an unusually large move):**\nSilver fell far more than gold (-0.64%), pushing the gold/silver ratio higher. Per the usual pattern, a rising ratio often signals a \"fear\" move where gold is preferred, but the headlines point elsewhere: China's solar panel exports fell 21.4% in July, a proxy for weakening solar-sector demand \u2014 and solar/electronics manufac"
+}
