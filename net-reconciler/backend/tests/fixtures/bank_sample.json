@@ -1,0 +1,17 @@
+[
+  {"id": "bank_01", "description": "WOOLWORTHS 2145 SYDNEY AU", "amount": "-84.50", "postDate": "2026-08-02", "account": {"name": "Everyday Account"}},
+  {"id": "bank_02", "description": "MECCA BAR SYDNEY AU", "amount": "-120.00", "postDate": "2026-08-03", "account": {"name": "Everyday Account"}},
+  {"id": "bank_03", "description": "UBER *TRIP HELP.UBER.COM", "amount": "-18.75", "postDate": "2026-08-03", "account": {"name": "Everyday Account"}},
+  {"id": "bank_04", "description": "DAN MURPHYS 4471", "amount": "-65.00", "postDate": "2026-08-04", "account": {"name": "Everyday Account"}},
+  {"id": "bank_05", "description": "COLES 0334 SYDNEY AU", "amount": "-42.10", "postDate": "2026-08-05", "account": {"name": "Everyday Account"}},
+  {"id": "bank_06", "description": "THAI GARDEN RESTAURANT", "amount": "-152.30", "postDate": "2026-08-08", "account": {"name": "Everyday Account"}},
+  {"id": "bank_07", "description": "NETFLIX.COM SYDNEY AU", "amount": "-22.99", "postDate": "2026-08-15", "account": {"name": "Everyday Account"}},
+  {"id": "bank_08", "description": "DINNER PAYMENT SQ", "amount": "-60.00", "postDate": "2026-08-10", "account": {"name": "Everyday Account"}},
+  {"id": "bank_09", "description": "BUNNINGS WAREHOUSE ALEXANDRIA", "amount": "-34.20", "postDate": "2026-08-06", "account": {"name": "Everyday Account"}},
+  {"id": "bank_10", "description": "TRANSFER FROM P SHARMA", "amount": "60.00", "postDate": "2026-08-06", "account": {"name": "Everyday Account"}},
+  {"id": "bank_11", "description": "SALARY XYZ CORP PTY LTD", "amount": "3450.00", "postDate": "2026-08-15", "account": {"name": "Everyday Account"}},
+  {"id": "bank_12", "description": "PAYID TRANSFER A CHEN", "amount": "50.00", "postDate": "2026-08-09", "account": {"name": "Everyday Account"}},
+  {"id": "bank_13", "description": "RENT PAYMENT REF9981", "amount": "-500.00", "postDate": "2026-08-14", "account": {"name": "Everyday Account"}},
+  {"id": "bank_14", "description": "SPOTIFY PREMIUM SYDNEY AU", "amount": "-12.99", "postDate": "2026-08-12", "account": {"name": "Everyday Account"}},
+  {"id": "bank_15", "description": "JETSTAR AIRWAYS SYDNEY AU", "amount": "-215.00", "postDate": "2026-08-16", "account": {"name": "Everyday Account"}}
+]

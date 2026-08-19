@@ -1,0 +1,50 @@
+name: daily-sync
+
+on:
+  schedule:
+    - cron: '30 20 * * *'   # 06:30 AEST daily (20:30 UTC)
+  workflow_dispatch: {}      # manual trigger button
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        working-directory: backend
+        run: pip install -r requirements.txt
+
+      - name: Restore ledger.db
+        uses: actions/cache@v4
+        with:
+          path: data/ledger.db
+          key: ledger-db-${{ github.run_id }}
+          restore-keys: |
+            ledger-db-
+
+      - name: Run sync + digest
+        working-directory: backend
+        env:
+          SPLITWISE_API_KEY: ${{ secrets.SPLITWISE_API_KEY }}
+          BASIQ_API_KEY: ${{ secrets.BASIQ_API_KEY }}
+          BASIQ_USER_ID: ${{ secrets.BASIQ_USER_ID }}
+          DATA_SOURCE: ${{ vars.DATA_SOURCE || 'basiq' }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python run_sync.py
+
+      - name: Commit updated ledger
+        run: |
+          git config user.name "net-reconciler-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ledger.db
+          git diff --cached --quiet || git commit -m "chore: sync $(date -u +'%Y-%m-%d')"
+          git push

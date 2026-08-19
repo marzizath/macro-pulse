@@ -1,0 +1,122 @@
+{
+  "my_user_id": 10001,
+  "expenses": [
+    {
+      "id": 90001,
+      "description": "Mecca Bar dinner",
+      "cost": "120.00",
+      "currency_code": "AUD",
+      "date": "2026-08-03T19:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "120.00", "owed_share": "60.00", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10002, "paid_share": "0.00", "owed_share": "60.00", "first_name": "Priya", "last_name": "Sharma"}
+      ]
+    },
+    {
+      "id": 90002,
+      "description": "Thai Garden Restaurant",
+      "cost": "150.00",
+      "currency_code": "AUD",
+      "date": "2026-08-06T19:30:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "150.00", "owed_share": "75.00", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10003, "paid_share": "0.00", "owed_share": "75.00", "first_name": "Alex", "last_name": "Chen"}
+      ]
+    },
+    {
+      "id": 90003,
+      "description": "Netflix subscription",
+      "cost": "22.99",
+      "currency_code": "AUD",
+      "date": "2026-08-01T00:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "22.99", "owed_share": "11.50", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10002, "paid_share": "0.00", "owed_share": "11.49", "first_name": "Priya", "last_name": "Sharma"}
+      ]
+    },
+    {
+      "id": 90004,
+      "description": "Dinner with friends A",
+      "cost": "60.00",
+      "currency_code": "AUD",
+      "date": "2026-08-09T20:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "60.00", "owed_share": "30.00", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10002, "paid_share": "0.00", "owed_share": "30.00", "first_name": "Priya", "last_name": "Sharma"}
+      ]
+    },
+    {
+      "id": 90005,
+      "description": "Dinner with friends B",
+      "cost": "60.00",
+      "currency_code": "AUD",
+      "date": "2026-08-11T20:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "60.00", "owed_share": "30.00", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10003, "paid_share": "0.00", "owed_share": "30.00", "first_name": "Alex", "last_name": "Chen"}
+      ]
+    },
+    {
+      "id": 90006,
+      "description": "Rent share August",
+      "cost": "1000.00",
+      "currency_code": "AUD",
+      "date": "2026-08-01T09:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10004, "paid_share": "1000.00", "owed_share": "500.00", "first_name": "Sam", "last_name": "Lee"},
+        {"user_id": 10001, "paid_share": "0.00", "owed_share": "500.00", "first_name": "Marzook", "last_name": ""}
+      ]
+    },
+    {
+      "id": 90007,
+      "description": "Ski trip lift passes",
+      "cost": "90.00",
+      "currency_code": "AUD",
+      "date": "2026-08-05T12:00:00Z",
+      "deleted_at": null,
+      "payment": false,
+      "users": [
+        {"user_id": 10005, "paid_share": "90.00", "owed_share": "0.00", "first_name": "Jordan", "last_name": "Ng"},
+        {"user_id": 10001, "paid_share": "0.00", "owed_share": "90.00", "first_name": "Marzook", "last_name": ""}
+      ]
+    },
+    {
+      "id": 90008,
+      "description": "Cancelled brunch",
+      "cost": "55.00",
+      "currency_code": "AUD",
+      "date": "2026-08-07T09:00:00Z",
+      "deleted_at": "2026-08-07T10:00:00Z",
+      "payment": false,
+      "users": [
+        {"user_id": 10001, "paid_share": "55.00", "owed_share": "27.50", "first_name": "Marzook", "last_name": ""},
+        {"user_id": 10002, "paid_share": "0.00", "owed_share": "27.50", "first_name": "Priya", "last_name": "Sharma"}
+      ]
+    },
+    {
+      "id": 90009,
+      "description": "Payment from Priya",
+      "cost": "60.00",
+      "currency_code": "AUD",
+      "date": "2026-08-06T08:00:00Z",
+      "deleted_at": null,
+      "payment": true,
+      "users": [
+        {"user_id": 10002, "paid_share": "60.00", "owed_share": "0.00", "first_name": "Priya", "last_name": "Sharma"},
+        {"user_id": 10001, "paid_share": "0.00", "owed_share": "60.00", "first_name": "Marzook", "last_name": ""}
+      ]
+    }
+  ]
+}
