@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-19",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 4.92,
+      "zscore": 3.24,
+      "anomaly": true,
+      "last_price": 4580.7002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 4.99,
+      "zscore": 2.06,
+      "anomaly": true,
+      "last_price": 67.13
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.64,
+      "zscore": -0.18,
+      "anomaly": false,
+      "last_price": 84.4
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.6,
+      "zscore": 0.11,
+      "anomaly": false,
+      "last_price": 91.57
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.85,
+      "zscore": -2.83,
+      "anomaly": true,
+      "last_price": 98.8
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -1.13,
+      "zscore": -1.37,
+      "anomaly": false,
+      "last_price": 4.653
+    },
+    {
+      "name": "VIX",
+      "pct_change": -6.0,
+      "zscore": -0.89,
+      "anomaly": false,
+      "last_price": 14.89
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.24,
+      "zscore": 0.38,
+      "anomaly": false,
+      "last_price": 0.7125
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.94,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "Silver",
+    "US Dollar Index"
+  ],
+  "digest": "# Daily Macro Digest \u2014 20 August 2026\n\n## Summary\nA genuine risk-and-geopolitics day. Gold and silver both jumped roughly 5%, well outside their normal daily ranges, while the US Dollar Index fell sharply. Headlines point to a real escalation thread: the UAE freezing trade with Iran after missiles landed near its coast, a Ukrainian drone strike setting fire to a Rosneft refinery, and UK inflation jumping to 2.9% on energy costs \u2014 all consistent with Middle East/Ukraine tension feeding into safe-haven and inflation-hedge demand (relationship #1). Oddly, crude oil itself was calm (WTI -0.64%, Brent +0.6%, neither flagged), so the oil side of the \"Hormuz risk premium\" chain isn't showing up yet despite the escalation headlines \u2014 worth noting as a mismatch. VIX actually fell 6% and the US 10Y yield eased slightly, so this doesn't look like a broad equity-market panic; it reads more like a targeted flight into precious metals and out of the dollar. AUD/USD and ASX materials were both little-changed, sitting this one out.\n\n## Flagged Assets\n\n**Gold (+4.92%, z-score 3.24 \u2014 large)**: A very unusual one-day move. Likely drivers per the known relationships: safe-haven demand from Middle East/Ukraine headlines, plus a weaker dollar mechanically making gold cheaper for non-US buyers (relationship #3). In 5 past episodes of comparable single-day gold jumps, gold continued rising over the following days in 4 of 5 cases (cumulative follow-through ranged from +2.9% to +17.5%), with one episode where the initial gain wasn't sustained. Small sample \u2014 not a forecast, just what happened before.\n\n**Silver (+4.99%, z-score 2.06 \u2014 large)**: Moved in lockstep with gold, suggesting this was a fear-driven move rather than an industrial-demand story (a falling gold/silver ratio would signal industrial demand \u2014 that's not what happened here since both rose similarly). In 4 past episodes, silver's follow-through was mixed: three strongly positive (cumulative +3% to +18%), one modestly negative (-0.6%). Sample too small to draw a firm pattern.\n\n**US Dollar Index (-0.85%, z-score -2.83 \u2014 large)**: An unusually sharp drop. Fits with gold/silver strength (relationship #3) and possibly some safe-haven rotation away from USD given the geopolitical headlines, though no direct US-policy news explains it. In 3 past comparable drops, the dollar's next-day path was mixed (one small bounce, two continued declines) \u2014 too few episodes to treat as a pattern.\n\n## What to Watch\n- **Iran/UAE tension**: further escalation (or de-escalation) will likely keep driving gold, oil, and USD moves via the Hormuz-risk channel.\n- **Oil market divergence**: crude itself hasn't moved much despite the headlines \u2014 watch whether Brent/WTI catch up to the risk narrative, especially with reports of tightening diesel cracks and Aramco allocation shifts.\n- **UK/global inflation prints**: the UK's 2.9% reading is a reminder that energy-driven inflation could feed into central bank commentary in the days ahead.\n\n*This is informational context only, not trading advice.*"
+}
