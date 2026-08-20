@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-20",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.91,
+      "zscore": 1.02,
+      "anomaly": false,
+      "last_price": 4575.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 3.64,
+      "zscore": 1.41,
+      "anomaly": false,
+      "last_price": 68.13
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 0.44,
+      "zscore": 0.11,
+      "anomaly": false,
+      "last_price": 86.21
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 1.67,
+      "zscore": 0.39,
+      "anomaly": false,
+      "last_price": 93.15
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.04,
+      "zscore": 0.41,
+      "anomaly": false,
+      "last_price": 98.872
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.92,
+      "zscore": 1.01,
+      "anomaly": false,
+      "last_price": 4.696
+    },
+    {
+      "name": "VIX",
+      "pct_change": 7.52,
+      "zscore": 1.38,
+      "anomaly": false,
+      "last_price": 16.01
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.46,
+      "zscore": 1.03,
+      "anomaly": false,
+      "last_price": 0.7114
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 2.65,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "# Daily Macro Digest \u2014 21 August 2026\n\n## Summary\nRisk sentiment tilted defensive over the last 24 hours as the US-Iran standoff continued to dominate headlines, with Trump threatening \"tremendous consequences\" for countries aiding Iran. Brent crude pushed above $93 on the persistent Gulf supply disruption (Norway also reported a ~200,000 bpd output drop, adding to tightness), while gold and silver both climbed strongly on safe-haven and inflation-hedge demand. Volatility (VIX) jumped over 7%, US 10-year yields ticked higher, and the US dollar was roughly flat. AUD/USD edged up modestly despite the general \"risk-off\" backdrop, and ASX materials stocks posted a notably large 2.65% gain \u2014 the standout anomaly of the day.\n\n## Flagged Asset: ASX Materials basket (BHP, RIO, FMG, NST)\nThis +2.65% move is unusually large versus its normal range. Some of this likely echoes the elevated commodity backdrop (gold/silver strength benefits producers like Newcrest/Northern Star exposure, and coking coal prices reportedly surged 25% per today's headlines, squeezing steelmakers but signalling tight supply that can lift miner equities). There's no China PMI or demand headline in today's feed to point to directly, so part of this move sits outside the known causal links we can confirm.\n\n**Historical pattern context**: In 3 past episodes of a similarly large single-day jump in this basket, the following-day moves were mixed and mostly negative on a cumulative basis \u2014 two episodes saw net pullbacks over the next few sessions (\u22124.01% and \u22121.42% cumulative), while one saw a modest gain (+1.56%). With only 3 episodes, this is a small sample and not a reliable guide \u2014 it's offered as context only, not a signal of what happens next.\n\n## What to Watch\n- **US-Iran tensions / Hormuz situation**: Headlines suggest an ongoing impasse with no resolution signalled. Per known relationships, continued escalation risk keeps oil's supply-risk premium alive, which can flow through to inflation expectations, hawkish central bank tone, and continued gold/USD support.\n- **Coking coal price surge (+25%)**: Flagged as squeezing Indian steelmakers \u2014 worth watching for any read-through to ASX bulk commodity producers.\n- **China demand data**: No China PMI/import data appeared in today's feed. Given AUD and ASX materials' sensitivity to Chinese demand signals, any release here would be a key input to watch for next steps in this move.\n\n*This is informational context only, not financial advice.*"
+}
