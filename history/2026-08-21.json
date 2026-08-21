@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-21",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 3.22,
+      "zscore": 2.02,
+      "anomaly": true,
+      "last_price": 4661.6001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.45,
+      "zscore": 0.29,
+      "anomaly": false,
+      "last_price": 69.01
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -1.35,
+      "zscore": -0.33,
+      "anomaly": false,
+      "last_price": 86.64
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.1,
+      "zscore": 0.09,
+      "anomaly": false,
+      "last_price": 93.87
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.06,
+      "zscore": 0.21,
+      "anomaly": false,
+      "last_price": 98.839
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.89,
+      "zscore": 0.99,
+      "anomaly": false,
+      "last_price": 4.738
+    },
+    {
+      "name": "VIX",
+      "pct_change": -5.5,
+      "zscore": -0.77,
+      "anomaly": false,
+      "last_price": 15.13
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.7,
+      "zscore": 1.47,
+      "anomaly": false,
+      "last_price": 0.7175
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.13,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold"
+  ],
+  "digest": "# Daily Macro Digest \u2014 22 August 2026\n\n**The 24-hour snapshot:** Gold surged sharply (+3.2%) as Middle East tensions escalated further, with headlines pointing to the collapse of an Iran nuclear deal and continued restrictions in the Strait of Hormuz (the narrow waterway through which ~20% of the world's seaborne oil passes). Oddly, oil itself didn't reflect the same alarm \u2014 WTI actually fell 1.35% and Brent was roughly flat \u2014 despite headline chatter about oil \"nearing $100.\" The US dollar was essentially flat, the 10-year Treasury yield ticked up modestly, and VIX (a measure of expected market volatility) fell 5.5%, suggesting equity markets weren't pricing broad-based fear. AUD/USD rose 0.7% and ASX materials were little changed. Overall, this looks like a gold-specific safe-haven move rather than a synchronized risk-off event across all assets.\n\n**Flagged asset: Gold (+3.22%, anomaly)**\nGold's jump lines up with Relationship #1 (Hormuz/Middle East tension \u2192 inflation-hedge and safe-haven demand \u2192 gold rises) and #7 (safe-haven demand during stress). However, the move is only partially corroborated: oil prices didn't rally, the dollar didn't strengthen, and VIX actually dropped \u2014 none of which fit a textbook \"risk-off\" day. That divergence suggests the gold move may be driven by geopolitical headlines specifically (Iran deal collapse, Hormuz restrictions) rather than a broad flight from risk assets.\n\n*Historical pattern context:* In 5 past episodes where gold made a similarly large single-day jump, it continued rising over the following days in every case \u2014 average cumulative gains of roughly 1.9% to 17.5% over the next 5 days (with wide variation, and one episode showing a much smaller follow-through of under 2%). This is a small sample from this project's own archive and should not be read as a prediction \u2014 it's a record of what happened, not what will happen.\n\n**What to watch:**\n- Iran/Hormuz developments \u2014 headlines mention the Iran deal \"collapsing\" and Hormuz remaining \"restricted\"; any escalation or de-escalation could move both oil and gold further.\n- Oil supply dynamics \u2014 Iraq is reportedly pushing to raise output while Venezuelan exports are backing up at ports; watch for OPEC responses given the current gap between geopolitical rhetoric and actual oil price action.\n- China data flow \u2014 no fresh headlines today, but per Relationship #4, upcoming PMI/import figures remain the key swing factor for AUD and ASX materials given today's muted local moves.\n\n*This is a summary of market moves and possible explanations, not investment advice.*"
+}
