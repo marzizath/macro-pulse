@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-22",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 2.39,
+      "zscore": 1.39,
+      "anomaly": false,
+      "last_price": 4624.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 2.12,
+      "zscore": 0.61,
+      "anomaly": false,
+      "last_price": 69.466
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.88,
+      "zscore": -0.19,
+      "anomaly": false,
+      "last_price": 87.06
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.65,
+      "zscore": 0.22,
+      "anomaly": false,
+      "last_price": 94.39
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.1,
+      "zscore": 0.08,
+      "anomaly": false,
+      "last_price": 98.8
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.89,
+      "zscore": 0.99,
+      "anomaly": false,
+      "last_price": 4.738
+    },
+    {
+      "name": "VIX",
+      "pct_change": -5.5,
+      "zscore": -0.77,
+      "anomaly": false,
+      "last_price": 15.13
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.78,
+      "zscore": 1.67,
+      "anomaly": true,
+      "last_price": 0.7175
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.13,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "AUD/USD"
+  ],
+  "digest": "# Daily Macro Digest \u2014 24 Hour Wrap\n\n**The overnight picture:** Gold and silver both pushed higher (+2.4% and +2.1% respectively), while the VIX (a measure of expected volatility, sometimes called the market's \"fear gauge\") fell sharply (-5.5%), suggesting this wasn't a classic risk-off, safe-haven scramble \u2014 equity markets look calm rather than nervous. The US 10-year yield ticked up modestly and the US Dollar Index was roughly flat. Oil was mixed: WTI crude eased slightly while Brent (the international benchmark) edged up a touch. AUD/USD had a notably strong move, gaining 0.78% and standing out statistically against its usual daily range, even as ASX materials stocks were little changed. Headline flow was thin on hard data \u2014 most macro/forex/central-bank feeds were unavailable today \u2014 and the available energy-sector commentary was dominated by longer-term structural stories (grid investment, chokepoint risk, drilling pullback) rather than any single overnight catalyst. Net effect: several moves lack a clean causal explanation in today's available information.\n\n**Flagged: AUD/USD (+0.78%, statistically unusual)**\nThis is the standout move of the day. There's no China PMI, RBA decision, or USD-specific headline in today's feed to explain it directly \u2014 the Dollar Index was nearly flat, so this doesn't look like a broad USD story either. Worth noting honestly: we don't have a confirmed driver here.\n\n*Historical context:* In 5 past episodes where AUD/USD had a similarly sized up-move, the currency was higher in cumulative terms over the following 5 days in all 5 cases (cumulative follow-through ranging from +0.83% to +1.52%). Five episodes is a small sample \u2014 this describes what happened before, not what will happen now, and should not be read as a signal.\n\n**Other notes:** Gold and silver rising together, with silver actually a touch behind gold in a \"fear\" sense (gold/silver ratio roughly stable), doesn't strongly favour either the safe-haven or industrial-demand story from the headlines alone \u2014 both moved, neither is flagged as anomalous, so it's a mild rally rather than a dramatic shift. Oil's Brent/WTI divergence is small and within normal noise; nothing in the Hormuz/Middle East chokepoint headlines today points to a fresh supply-risk premium \u2014 the one relevant story (\"Every Chokepoint That Isn't Hormuz\") is analytical, not event-driven.\n\n**What to watch:**\n- Whether AUD/USD's move extends or reverses over the next few sessions, and whether China demand data (PMI/imports) emerges to explain it after the fact.\n- Any pickup in Middle East chokepoint tension given ongoing analytical coverage, which per the Hormuz relationship could shift oil, gold, and USD together.\n- Return of standard macro/forex data feeds (currently blocked) for clearer next-day context \u2014 today's read is unusually data-light."
+}
