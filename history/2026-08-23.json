@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-23",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 3.64,
+      "zscore": 2.34,
+      "anomaly": true,
+      "last_price": 4680.6001
+    },
+    {
+      "name": "Silver",
+      "pct_change": 2.21,
+      "zscore": 0.65,
+      "anomaly": false,
+      "last_price": 69.53
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.88,
+      "zscore": -0.19,
+      "anomaly": false,
+      "last_price": 87.06
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.65,
+      "zscore": 0.22,
+      "anomaly": false,
+      "last_price": 94.39
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": -0.1,
+      "zscore": 0.08,
+      "anomaly": false,
+      "last_price": 98.8
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.89,
+      "zscore": 0.99,
+      "anomaly": false,
+      "last_price": 4.738
+    },
+    {
+      "name": "VIX",
+      "pct_change": -5.5,
+      "zscore": -0.77,
+      "anomaly": false,
+      "last_price": 15.13
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.67,
+      "zscore": 1.4,
+      "anomaly": false,
+      "last_price": 0.7167
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.13,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold"
+  ],
+  "digest": "## Daily Macro Digest \u2014 24 August 2026\n\n**Summary:** The standout move today is gold, which jumped 3.64% to $4,680/oz \u2014 a statistically large move (z-score 2.34) with no clear headline catalyst in today's feed (most news sources returned errors, and the oil-sector items that did come through are unrelated to precious metals). Everything else was comparatively quiet: silver rose a more modest 2.21%, oil was little changed (WTI -0.88%, Brent +0.65%), the US dollar index dipped slightly (-0.1%), the US 10-year yield ticked up 0.89%, and the VIX (a measure of expected market volatility) fell 5.5%, suggesting broad risk appetite rather than fear. AUD/USD rose 0.67% and ASX materials stocks were essentially flat (-0.13%), showing no strong pass-through from gold's surge into local mining equities.\n\n**Flagged asset: Gold (+3.64%, anomaly)**\nThis is an unusually large single-day move for gold, and it's a bit contradictory: normally a rising US 10-year yield raises the opportunity cost of holding non-yielding gold and tends"
+}
