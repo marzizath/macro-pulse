@@ -1,11 +1,14 @@
 """
 Sends the day's price moves + headlines + historical pattern context to
-Claude to produce a plain-English digest, grounded in the correlation map
-(base + learned additions) so it explains rather than predicts.
+Claude to produce a "Cave Digest" - a terse, one-line-per-asset digest
+(cause -> effect, plain words, flagged movers marked, "Watch:" list) -
+grounded in the correlation map (base + learned additions) so it explains
+rather than predicts.
 """
 import os
 import json
 import urllib.request
+from datetime import date
 from config import CORRELATION_MAP
 
 API_URL = "https://api.anthropic.com/v1/messages"
@@ -56,6 +59,7 @@ def _build_system_prompt(edition: str = "daily") -> str:
         if learned else ""
     )
     framing = EDITION_FRAMING.get(edition, EDITION_FRAMING["daily"])
+    today_str = date.today().strftime("%b %-d") if os.name != "nt" else date.today().strftime("%b %#d")
     return f"""You are writing a macro briefing for a Sydney-based reader who
 tracks gold, silver, oil, USD, US yields, VIX, AUD/USD, and ASX materials
 stocks, and wants to understand what moved and why it might matter - not
@@ -65,24 +69,54 @@ what to trade.
 
 {CORRELATION_MAP}{learned_section}
 
-Rules:
+Grounding rules (apply regardless of format):
 - Explain moves using the relationships above where they genuinely apply.
   Do not invent causal links that aren't in the list or aren't clearly
   supported by the headlines provided.
-- Be honest about uncertainty. If assets moved and there's no clear causal
-  story in the headlines, say so rather than forcing a narrative.
-- If historical pattern context is provided for a flagged asset, present it
-  explicitly as "in N past similar episodes, this asset did X" - never as
-  a forecast, and say plainly when the sample is too small to mean much
-  (fewer than 3 episodes).
+- Be honest about uncertainty. If an asset moved and there's no clear
+  causal story in the headlines, say so rather than forcing a narrative.
 - This is informational context, not investment advice or a trading signal.
   Never tell the reader to buy, sell, or hold anything.
-- Structure: (1) a one-paragraph summary of the day, (2) a short note for
-  each flagged asset (anomaly=true), including its historical pattern
-  context if provided, (3) a short "what to watch" list of 2-3 upcoming
-  known events if the headlines mention them.
-- Keep it under 450 words total. Plain English - briefly explain any jargon
-  the first time you use it.
+
+Write in "Cave Digest" style - a 30-second read, not a report:
+1. One line per asset/idea. No paragraphs.
+2. Cause -> effect only: "X up because Y", or "X up, reason unclear \U0001F6A9"
+   if nothing in the headlines explains it - never force a story.
+3. Plain words instead of jargon: "fear meter" not VIX, "safe-money vibes"
+   not safe-haven flows, "money moves to safety" not risk-off. If a
+   technical term is unavoidable, give the plain-English version in
+   parentheses the first time only.
+4. Flag every asset with anomaly=true using \U0001F6A9 and a one-line gut-check.
+   If historical pattern context is provided for it, use that as the
+   gut-check: "happened N times before, did X each time" - and say
+   "small sample, don't read too much into it" whenever N < 3. If no
+   pattern context or no clear driver exists, say so plainly instead of
+   inventing one.
+5. End with a "Watch:" list of 2-3 plain-language bullets - concrete things
+   to look out for next, no hedging paragraphs.
+6. Skip anything unchanged or boring - don't mention "flat" or "roughly
+   stable" moves unless the calm itself is the story (e.g. VIX not moving
+   despite a scary headline).
+
+Output valid markdown, in exactly this shape:
+
+### {today_str} Cave Digest
+
+- Gold [up/down] = [safe-money / risk-on] vibes
+- Silver [up/down] = [tracks gold / diverging]
+- Fear meter (VIX) [up/down] = [scared / calm]
+- Oil [up/down/flat] = [reason, or "meh"]
+- Dollar [up/down/flat] = [reason, or "boring"]
+- [any other flagged/unusual mover] = [what happened] \U0001F6A9 [gut-check]
+
+**Watch:**
+- [thing 1]
+- [thing 2]
+- [thing 3]
+
+That's a shape, not a checklist - skip lines for assets covered by rule 6,
+and add extra bullets for any other flagged movers beyond the standard
+list. Keep the whole thing under 150 words.
 """
 
 
@@ -117,7 +151,7 @@ def synthesize_digest(asset_data: list, headlines: list, pattern_context: list =
 
     payload = {
         "model": MODEL,
-        "max_tokens": 1400,
+        "max_tokens": 500,  # Cave Digest output is capped at ~150 words - plenty of margin
         "system": _build_system_prompt(edition),
         "messages": [{"role": "user", "content": user_content}],
     }
