@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-28",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.59,
+      "zscore": -0.01,
+      "anomaly": false,
+      "last_price": 4636.7002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.43,
+      "zscore": -0.2,
+      "anomaly": false,
+      "last_price": 69.73
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.29,
+      "zscore": -0.12,
+      "anomaly": false,
+      "last_price": 83.29
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -1.51,
+      "zscore": -0.53,
+      "anomaly": false,
+      "last_price": 88.35
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.03,
+      "zscore": 0.27,
+      "anomaly": false,
+      "last_price": 99.187
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.17,
+      "zscore": 0.13,
+      "anomaly": false,
+      "last_price": 4.672
+    },
+    {
+      "name": "VIX",
+      "pct_change": -4.6,
+      "zscore": -0.57,
+      "anomaly": false,
+      "last_price": 14.51
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.24,
+      "zscore": 0.21,
+      "anomaly": false,
+      "last_price": 0.7199
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 0.96,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "### Aug 28 Cave Digest\n\n- Gold up slightly = safe-money vibes, though muted (fear meter fell same day, so not a strong signal)\n- Silver up, tracking gold = no industrial-demand divergence today\n- Fear meter (VIX) down = markets calmer, less scared\n- Oil down (Brent -1.5%, WTI -0.3%) = Hormuz shipping traffic \"ticking higher amid diplomatic"
+}
