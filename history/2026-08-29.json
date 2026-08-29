@@ -3,38 +3,38 @@
   "assets": [
     {
       "name": "Gold",
-      "pct_change": -2.29,
-      "zscore": -2.13,
-      "anomaly": true,
-      "last_price": 4504.1001
+      "pct_change": 0.25,
+      "zscore": -0.3,
+      "anomaly": false,
+      "last_price": NaN
     },
     {
       "name": "Silver",
-      "pct_change": -3.37,
-      "zscore": -1.99,
-      "anomaly": true,
-      "last_price": 67.09
+      "pct_change": 2.12,
+      "zscore": 0.61,
+      "anomaly": false,
+      "last_price": NaN
     },
     {
       "name": "WTI Crude",
-      "pct_change": -0.11,
-      "zscore": -0.05,
+      "pct_change": 1.58,
+      "zscore": 0.63,
       "anomaly": false,
-      "last_price": 83.44
+      "last_price": NaN
     },
     {
       "name": "Brent Crude",
-      "pct_change": -1.57,
-      "zscore": -0.55,
+      "pct_change": 2.12,
+      "zscore": 0.75,
       "anomaly": false,
-      "last_price": 88.29
+      "last_price": NaN
     },
     {
       "name": "US Dollar Index",
-      "pct_change": 0.52,
-      "zscore": 2.18,
+      "pct_change": 0.54,
+      "zscore": 2.27,
       "anomaly": true,
-      "last_price": 99.677
+      "last_price": 99.7
     },
     {
       "name": "US 10Y Yield",
@@ -52,9 +52,9 @@
     },
     {
       "name": "AUD/USD",
-      "pct_change": -0.24,
-      "zscore": -0.97,
-      "anomaly": false,
+      "pct_change": -0.43,
+      "zscore": -1.5,
+      "anomaly": true,
       "last_price": 0.7164
     },
     {
@@ -66,9 +66,8 @@
     }
   ],
   "flagged": [
-    "Gold",
-    "Silver",
-    "US Dollar Index"
+    "US Dollar Index",
+    "AUD/USD"
   ],
-  "digest": "### Aug 29 Cave Digest\n\n- Gold down 2.3% \ud83d\udea9 = stronger dollar + rising yields make gold less att"
+  "digest": ""
 }
