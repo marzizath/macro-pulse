@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-29",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -2.29,
+      "zscore": -2.13,
+      "anomaly": true,
+      "last_price": 4504.1001
+    },
+    {
+      "name": "Silver",
+      "pct_change": -3.37,
+      "zscore": -1.99,
+      "anomaly": true,
+      "last_price": 67.09
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.11,
+      "zscore": -0.05,
+      "anomaly": false,
+      "last_price": 83.44
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -1.57,
+      "zscore": -0.55,
+      "anomaly": false,
+      "last_price": 88.29
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.52,
+      "zscore": 2.18,
+      "anomaly": true,
+      "last_price": 99.677
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.03,
+      "zscore": 1.08,
+      "anomaly": false,
+      "last_price": 4.72
+    },
+    {
+      "name": "VIX",
+      "pct_change": -0.55,
+      "zscore": 0.04,
+      "anomaly": false,
+      "last_price": 14.43
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.24,
+      "zscore": -0.97,
+      "anomaly": false,
+      "last_price": 0.7164
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.22,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "Silver",
+    "US Dollar Index"
+  ],
+  "digest": "### Aug 29 Cave Digest\n\n- Gold down 2.3% \ud83d\udea9 = stronger dollar + rising yields make gold less att"
+}
