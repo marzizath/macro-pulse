@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-05",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -1.38,
+      "zscore": -1.1,
+      "anomaly": false,
+      "last_price": 4429.7998
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.38,
+      "zscore": -0.83,
+      "anomaly": false,
+      "last_price": 66.047
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 0.2,
+      "zscore": -0.3,
+      "anomaly": false,
+      "last_price": 91.48
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 0.8,
+      "zscore": 0.02,
+      "anomaly": false,
+      "last_price": 96.28
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.16,
+      "zscore": 0.68,
+      "anomaly": false,
+      "last_price": 99.16
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.46,
+      "zscore": 0.46,
+      "anomaly": false,
+      "last_price": 4.784
+    },
+    {
+      "name": "VIX",
+      "pct_change": 1.47,
+      "zscore": 0.33,
+      "anomaly": false,
+      "last_price": 14.53
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.05,
+      "zscore": -0.2,
+      "anomaly": false,
+      "last_price": 0.7205
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.37,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "### Sep 5 Cave Digest\n\n- Gold down (-1.4%) = rising bond yields make non-yielding gold less attractive, dollar firmed too\n- Silver down (-1.4%) = tracking gold move, not diverging\n- Fear meter (VIX) up slightly = mild uptick, not scared territory\n- Oil (WTI/Brent) up modestly = no clear driver in headlines, meh\n- Dollar up slightly = matches yield move, boring\n- ASX Materials down (-0.37%) = no China demand data in headlines to explain it, reason unclear\n\n**Watch:**\n- US 10Y yield direction - further rises could keep pressuring gold\n- Any Hormuz/Middle East headl"
+}
