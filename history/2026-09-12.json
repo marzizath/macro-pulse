@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-12",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.04,
+      "zscore": 0.05,
+      "anomaly": false,
+      "last_price": 4366.2002
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.42,
+      "zscore": 0.2,
+      "anomaly": false,
+      "last_price": 64.554
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -2.37,
+      "zscore": -1.42,
+      "anomaly": false,
+      "last_price": 100.05
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -2.81,
+      "zscore": -1.6,
+      "anomaly": true,
+      "last_price": 104.61
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.03,
+      "zscore": 0.24,
+      "anomaly": false,
+      "last_price": 99.12
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.63,
+      "zscore": 0.39,
+      "anomaly": false,
+      "last_price": 4.975
+    },
+    {
+      "name": "VIX",
+      "pct_change": -11.21,
+      "zscore": -2.33,
+      "anomaly": true,
+      "last_price": 15.84
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.23,
+      "zscore": 0.43,
+      "anomaly": false,
+      "last_price": 0.7173
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -3.17,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Brent Crude",
+    "VIX",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "### Sep 12 Cave Digest\n\n- Oil down (WTI -2.4%, Brent -2.8%) \ud83d\udea9 despite drone strikes on a Saudi pipeline and Iran unrest headlines - normally"
+}
