@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-15",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": -0.58,
+      "zscore": -0.32,
+      "anomaly": false,
+      "last_price": 4326.7998
+    },
+    {
+      "name": "Silver",
+      "pct_change": 1.11,
+      "zscore": 0.48,
+      "anomaly": false,
+      "last_price": 64.22
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 3.98,
+      "zscore": 1.21,
+      "anomaly": false,
+      "last_price": 105.43
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": 2.56,
+      "zscore": 0.68,
+      "anomaly": false,
+      "last_price": 108.39
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.15,
+      "zscore": 0.51,
+      "anomaly": false,
+      "last_price": 99.612
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.71,
+      "zscore": 0.5,
+      "anomaly": false,
+      "last_price": 4.996
+    },
+    {
+      "name": "VIX",
+      "pct_change": 0.58,
+      "zscore": -0.03,
+      "anomaly": false,
+      "last_price": 17.2
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.11,
+      "zscore": -0.36,
+      "anomaly": false,
+      "last_price": 0.713
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -2.23,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": "### Sep 15 Cave Digest\n\n- Gold down = odd given oil spike, no clear safe-money bid showing up \ud83d\udea9 relationship expected here but data doesn't match\n- Silver up = diverging from gold, more industrial-demand vibes than fear\n- Fear meter (VIX) barely moved = calm despite Middle East oil chaos in headlines\n- Oil up sharply (WTI +4%, Brent +2.6%) = Saudi Aramco pipeline shut, Yanbu loadings suspended, Libya force majeure - real supply-risk premium building\n- Dollar up slightly = mild safe-haven bid, consistent with oil-shock playbook\n- ASX Materials down 2.2% \ud83d\udea9 = no local news explains it; historical pattern ("
+}
