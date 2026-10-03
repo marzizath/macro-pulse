@@ -3,38 +3,38 @@
   "assets": [
     {
       "name": "Gold",
-      "pct_change": -0.72,
-      "zscore": -0.38,
+      "pct_change": -0.95,
+      "zscore": -0.56,
       "anomaly": false,
-      "last_price": 4172.1001
+      "last_price": 4162.2998
     },
     {
       "name": "Silver",
-      "pct_change": -0.02,
-      "zscore": 0.12,
+      "pct_change": -1.23,
+      "zscore": -0.42,
       "anomaly": false,
-      "last_price": 60.71
+      "last_price": 59.977
     },
     {
       "name": "WTI Crude",
-      "pct_change": -1.73,
-      "zscore": -0.65,
+      "pct_change": -1.9,
+      "zscore": -0.7,
       "anomaly": false,
-      "last_price": 91.26
+      "last_price": 91.11
     },
     {
       "name": "Brent Crude",
-      "pct_change": 0.38,
-      "zscore": 0.0,
+      "pct_change": -0.06,
+      "zscore": -0.16,
       "anomaly": false,
-      "last_price": 102.7
+      "last_price": 102.25
     },
     {
       "name": "US Dollar Index",
       "pct_change": -0.17,
-      "zscore": -0.97,
+      "zscore": -0.95,
       "anomaly": false,
-      "last_price": 101.924
+      "last_price": 101.93
     },
     {
       "name": "US 10Y Yield",
@@ -52,9 +52,9 @@
     },
     {
       "name": "AUD/USD",
-      "pct_change": 0.17,
-      "zscore": 0.81,
-      "anomaly": false,
+      "pct_change": 0.42,
+      "zscore": 1.65,
+      "anomaly": true,
       "last_price": 0.6957
     },
     {
@@ -65,6 +65,8 @@
       "last_price": null
     }
   ],
-  "flagged": [],
+  "flagged": [
+    "AUD/USD"
+  ],
   "digest": ""
 }
