@@ -3,71 +3,72 @@
   "assets": [
     {
       "name": "Gold",
-      "pct_change": -0.26,
-      "zscore": -0.07,
+      "pct_change": -1.29,
+      "zscore": -1.02,
       "anomaly": false,
-      "last_price": 4179.6001
+      "last_price": 4123.5
     },
     {
       "name": "Silver",
-      "pct_change": -1.49,
-      "zscore": -0.69,
-      "anomaly": false,
-      "last_price": 59.245
+      "pct_change": -5.78,
+      "zscore": -3.0,
+      "anomaly": true,
+      "last_price": 55.74
     },
     {
       "name": "WTI Crude",
-      "pct_change": 1.14,
-      "zscore": 0.6,
+      "pct_change": 0.68,
+      "zscore": 0.55,
       "anomaly": false,
-      "last_price": 94.81
+      "last_price": 94.78
     },
     {
       "name": "Brent Crude",
-      "pct_change": -0.28,
-      "zscore": -0.16,
+      "pct_change": -0.06,
+      "zscore": 0.03,
       "anomaly": false,
-      "last_price": 106.35
+      "last_price": 105.63
     },
     {
       "name": "US Dollar Index",
-      "pct_change": -0.37,
-      "zscore": -1.9,
-      "anomaly": true,
-      "last_price": 102.2
+      "pct_change": 0.21,
+      "zscore": 0.27,
+      "anomaly": false,
+      "last_price": 102.391
     },
     {
       "name": "US 10Y Yield",
-      "pct_change": -0.44,
-      "zscore": -0.76,
+      "pct_change": -0.52,
+      "zscore": -0.77,
       "anomaly": false,
-      "last_price": 5.217
+      "last_price": 5.19
     },
     {
       "name": "VIX",
-      "pct_change": 0.39,
-      "zscore": 0.18,
-      "anomaly": false,
-      "last_price": 15.27
+      "pct_change": 10.48,
+      "zscore": 2.28,
+      "anomaly": true,
+      "last_price": 16.87
     },
     {
       "name": "AUD/USD",
-      "pct_change": 0.46,
-      "zscore": 1.57,
-      "anomaly": true,
-      "last_price": 0.6988
+      "pct_change": -0.06,
+      "zscore": 0.11,
+      "anomaly": false,
+      "last_price": 0.6981
     },
     {
       "name": "ASX Materials (basket proxy)",
-      "pct_change": -0.11,
+      "pct_change": -2.67,
       "zscore": null,
-      "anomaly": false,
+      "anomaly": true,
       "last_price": null
     }
   ],
   "flagged": [
-    "US Dollar Index",
-    "AUD/USD"
+    "Silver",
+    "VIX",
+    "ASX Materials (basket proxy)"
   ],
   "digest": ""
 }
