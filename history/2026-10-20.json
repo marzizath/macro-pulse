@@ -4,67 +4,69 @@
     {
       "name": "Gold",
       "pct_change": -0.59,
-      "zscore": -0.27,
+      "zscore": -0.29,
       "anomaly": false,
-      "last_price": 4156.3999
+      "last_price": 4135.7002
     },
     {
       "name": "Silver",
-      "pct_change": 0.22,
-      "zscore": 0.45,
+      "pct_change": 1.74,
+      "zscore": 1.13,
       "anomaly": false,
-      "last_price": 57.12
+      "last_price": 57.965
     },
     {
       "name": "WTI Crude",
-      "pct_change": -3.19,
-      "zscore": -1.36,
-      "anomaly": false,
-      "last_price": 98.17
+      "pct_change": -5.14,
+      "zscore": -2.53,
+      "anomaly": true,
+      "last_price": 98.33
     },
     {
       "name": "Brent Crude",
-      "pct_change": -0.6,
-      "zscore": -0.41,
+      "pct_change": -0.24,
+      "zscore": -0.35,
       "anomaly": false,
-      "last_price": 109.2
+      "last_price": 109.29
     },
     {
       "name": "US Dollar Index",
-      "pct_change": 0.11,
-      "zscore": 0.08,
+      "pct_change": -0.2,
+      "zscore": -0.87,
       "anomaly": false,
-      "last_price": 101.948
+      "last_price": 101.778
     },
     {
       "name": "US 10Y Yield",
-      "pct_change": 0.75,
-      "zscore": 0.63,
+      "pct_change": -0.37,
+      "zscore": -0.54,
       "anomaly": false,
-      "last_price": 5.136
+      "last_price": 5.117
     },
     {
       "name": "VIX",
-      "pct_change": -7.75,
-      "zscore": -1.48,
+      "pct_change": -6.13,
+      "zscore": -1.1,
       "anomaly": false,
-      "last_price": 18.44
+      "last_price": 17.31
     },
     {
       "name": "AUD/USD",
-      "pct_change": 0.22,
-      "zscore": 0.73,
+      "pct_change": 0.4,
+      "zscore": 1.09,
       "anomaly": false,
-      "last_price": 0.6988
+      "last_price": 0.7011
     },
     {
       "name": "ASX Materials (basket proxy)",
-      "pct_change": -1.54,
+      "pct_change": 0.1,
       "zscore": null,
       "anomaly": false,
       "last_price": null
     }
   ],
-  "flagged": [],
-  "digest": ""
+  "flagged": [
+    "WTI Crude"
+  ],
+  "digest": "### Oct 20 Cave Digest\n\n- Gold down slightly = growth vibes nudging out safe-money demand\n-"
 }
