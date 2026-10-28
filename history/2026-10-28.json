@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-28",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 1.05,
+      "zscore": 1.26,
+      "anomaly": false,
+      "last_price": 4081.0
+    },
+    {
+      "name": "Silver",
+      "pct_change": 0.79,
+      "zscore": 0.65,
+      "anomaly": false,
+      "last_price": 54.535
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -1.5,
+      "zscore": -0.81,
+      "anomaly": false,
+      "last_price": 100.23
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -5.19,
+      "zscore": -2.97,
+      "anomaly": true,
+      "last_price": 109.8
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.35,
+      "zscore": 1.06,
+      "anomaly": false,
+      "last_price": 102.321
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 0.14,
+      "zscore": 0.35,
+      "anomaly": false,
+      "last_price": 4.993
+    },
+    {
+      "name": "VIX",
+      "pct_change": -4.73,
+      "zscore": -0.78,
+      "anomaly": false,
+      "last_price": 17.52
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.35,
+      "zscore": 0.86,
+      "anomaly": false,
+      "last_price": 0.7044
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 1.23,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Brent Crude"
+  ],
+  "digest": "### Oct 28 Cave Digest\n\n- Gold up = safe-money vibes, even with a stronger dollar (unusual combo, but not a big enough move to flag)\n- Silver up, smaller than gold = mostly tracking gold, modest industrial lift too\n- Fear meter (V"
+}
