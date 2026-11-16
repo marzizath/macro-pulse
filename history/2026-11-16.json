@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-16",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 0.04,
+      "zscore": 0.24,
+      "anomaly": false,
+      "last_price": 3887.7
+    },
+    {
+      "name": "Silver",
+      "pct_change": -1.08,
+      "zscore": -0.14,
+      "anomaly": false,
+      "last_price": 48.5
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": -0.2,
+      "zscore": 0.12,
+      "anomaly": false,
+      "last_price": 88.38
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -0.45,
+      "zscore": 0.04,
+      "anomaly": false,
+      "last_price": 95.41
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.02,
+      "zscore": -0.17,
+      "anomaly": false,
+      "last_price": 103.43
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": 1.0,
+      "zscore": 0.72,
+      "anomaly": false,
+      "last_price": 5.154
+    },
+    {
+      "name": "VIX",
+      "pct_change": 3.21,
+      "zscore": 0.06,
+      "anomaly": false,
+      "last_price": 19.3
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": -0.45,
+      "zscore": -0.71,
+      "anomaly": false,
+      "last_price": 0.6776
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": -0.9,
+      "zscore": null,
+      "anomaly": false,
+      "last_price": null
+    }
+  ],
+  "flagged": [],
+  "digest": "### Nov 16 Cave Digest\n\n- Gold flat (+0.04%) = little changed even as yields rose, no strong signal either way\n- Silver down -1.1% = diverging from gold, maybe reflecting softer industrial demand read-through\n- Fear meter (VIX) up 3.2% = markets a bit more nervous\n- Oil down slightly"
+}
