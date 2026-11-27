@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-27",
+  "assets": [
+    {
+      "name": "Gold",
+      "pct_change": 3.39,
+      "zscore": 1.86,
+      "anomaly": true,
+      "last_price": 3655.5
+    },
+    {
+      "name": "Silver",
+      "pct_change": 9.47,
+      "zscore": 3.06,
+      "anomaly": true,
+      "last_price": 43.845
+    },
+    {
+      "name": "WTI Crude",
+      "pct_change": 2.59,
+      "zscore": 1.11,
+      "anomaly": false,
+      "last_price": 85.85
+    },
+    {
+      "name": "Brent Crude",
+      "pct_change": -2.37,
+      "zscore": -0.37,
+      "anomaly": false,
+      "last_price": 92.37
+    },
+    {
+      "name": "US Dollar Index",
+      "pct_change": 0.02,
+      "zscore": -0.14,
+      "anomaly": false,
+      "last_price": 103.691
+    },
+    {
+      "name": "US 10Y Yield",
+      "pct_change": -1.14,
+      "zscore": -0.86,
+      "anomaly": false,
+      "last_price": 4.848
+    },
+    {
+      "name": "VIX",
+      "pct_change": -5.27,
+      "zscore": -0.47,
+      "anomaly": false,
+      "last_price": 26.8
+    },
+    {
+      "name": "AUD/USD",
+      "pct_change": 0.58,
+      "zscore": 1.98,
+      "anomaly": true,
+      "last_price": 0.6666
+    },
+    {
+      "name": "ASX Materials (basket proxy)",
+      "pct_change": 2.51,
+      "zscore": null,
+      "anomaly": true,
+      "last_price": null
+    }
+  ],
+  "flagged": [
+    "Gold",
+    "Silver",
+    "AUD/USD",
+    "ASX Materials (basket proxy)"
+  ],
+  "digest": ""
+}
